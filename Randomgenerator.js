@@ -1,7 +1,6 @@
 var rollDie = randomNumber( 1, 5 );
 var CurrentTal = rollDie;
 var UdtrukneTal=[];
-var table = document.getElementById("PrintTal");
 
 function randomNumber(minimum, maximum){
     return Math.round( Math.random() * (maximum - minimum) + minimum);
@@ -27,7 +26,7 @@ function PrintCurrentTal (NytTal){
 }
 
 function myFunction() {
-    var table = document.getElementById("myTable");
+    var table = document.getElementById("PrintTal");
     var row = table.insertRow(0);
     var cell1 = row.insertCell(0);
     cell1.innerHTML = "NytTal";
