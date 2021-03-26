@@ -3,7 +3,7 @@
 <script src="Randomgenerator.js"></script>
 
 Velkommen til Bingobuller.dk <br>
-Test version nr. 0.065 <br>
+Test version nr. 0.066 <br>
 
 <script>
     var CurrentTal = rollDieX;
@@ -22,6 +22,13 @@ Allerede trukne tal; <script>
 <form>
     <input type="button" id="NytTalKnap" onmouseover="AddNumber()" onclick=NytTalPull ();>
   </form>
+<script>     
+    for (i = 0; i < rollDie.length; i++)
+    document.writeln(rollDie[i] +", ");
+    </script>
+
+
+
   Det nye tal er; <script>document.write(CurrentTal);</script>
 
   
