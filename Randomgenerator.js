@@ -1,3 +1,5 @@
+<script src="Variabler.js"></script>
+
 function randomNumber(minimum, maximum){
     return Math.round( Math.random() * (maximum - minimum) + minimum);
 }
