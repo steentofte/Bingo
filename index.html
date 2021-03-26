@@ -3,7 +3,7 @@
 <script src="Funktioner.js"></script>
 
 Velkommen til Bingobuller.dk <br>
-Test version nr. 0.082 <br>
+Test version nr. 0.083 <br>
 
 Det nye tal er; <script>NytTalPull();</script>
 
@@ -23,11 +23,16 @@ Allerede trukne tal; <script>
 
 Det nye tal er; <script>document.write(CurrentTal);</script>
 
-<input type="button" value="+" onclick="addRow()">
 
-<div id="content">
-</div>
-<input type="button" onclick="printDiv('printableArea')" value="print a div!" />
+<table id="myTable">
+    <tr>
+      <td>Row1 cell1</td>
+      <td>Row1 cell2</td>
+    </tr>
+  </table>
+  <br>
+  
+  <button type="button" onclick="myFunction()">Try it</button>
 
   
 
