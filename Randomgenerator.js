@@ -12,7 +12,7 @@ function randomNumber(minimum, maximum){
 function NytTalPull (){
     var NytTal = randomNumber( 1, 90 );
     UdtrukneTal.push (NytTal);
-    PrintCurrentTal(NytTal);
+    //PrintCurrentTal(NytTal);
     console.log (NytTal);
 }
 
