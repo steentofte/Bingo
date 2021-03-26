@@ -4,16 +4,23 @@
 <script src="Randomgenerator.js"></script>
 
 Velkommen til Bingobuller.dk 
-Test version nr. 0.040
+Test version nr. 0.041
 <div class="jumbotron jumbotron-fluid crf-hero d-flex">
     <div class="container d-flex flex-column justify-content-center align-items-sm-stretch align-items-md-center">
         <h1 id="message" TEST class="col-sm-12"></h1>
     </div>
 </div>
 
-Her er tal 
+Det nye tal er; 
 <script>
 var rollDie = randomNumber( 1, 90 );
 document.write(rollDie);
 </script>
 
+Allerede trukne tal;
+
+<script>
+var UdtrukneTal = [];
+UdtrukneTal.push (rollDie.val)
+document.write(UdtrukneTal);
+</script>
