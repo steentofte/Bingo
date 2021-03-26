@@ -3,9 +3,11 @@
 <script src="Randomgenerator.js"></script>
 
 Velkommen til Bingobuller.dk <br>
-Test version nr. 0.063 <br>
+Test version nr. 0.064 <br>
 
 <script>
+    var CurrentTal = rollDie;
+    var UdtrukneTal=[];
     UdtrukneTal.push (CurrentTal);
     console.log (UdtrukneTal)
 </script>
@@ -18,12 +20,9 @@ Allerede trukne tal; <script>
     </script>
 
 <form>
-    <input type="checkbox" id="NytTalKnap" onmouseover="AddNumber()" onclick="alert('click event occured')">
+    <input type="button" id="NytTalKnap" onmouseover="AddNumber()" onclick= <script>rollDie;</script>>
   </form>
-  
-  <script>
+  Det nye tal er; <script>document.write(CurrentTal);</script>
 
-  }
-  </script>
   
 
