@@ -3,7 +3,7 @@
 <script src="Funktioner.js"></script>
 
 Velkommen til Bingobuller.dk <br>
-Test version nr. 0.079 <br>
+Test version nr. 0.081 <br>
 
 Det nye tal er; <script>NytTalPull();</script>
 
@@ -21,9 +21,14 @@ Allerede trukne tal; <script>
     document.writeln(rollDie[i] +", ");
     </script>
 
+Det nye tal er; <script>document.write(CurrentTal);</script>
 
+<div id="printableArea">
+    <h1>Print me</h1>
+</div>
+<input type="button" onclick="printDiv('printableArea')" value="print a div!" />
 
-  Det nye tal er; <script>document.write(CurrentTal);</script>
+  
 
   
 
