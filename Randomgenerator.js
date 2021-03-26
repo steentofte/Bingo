@@ -13,6 +13,7 @@ function NytTalPull (){
     var NytTal = randomNumber( 1, 90 );
     UdtrukneTal.push (NytTal);
     PrintCurrentTal(NytTal);
+    console.log (NytTal);
 }
 
 function PrintCurrentTal (NytTal){
