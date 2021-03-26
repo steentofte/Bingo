@@ -1,7 +1,6 @@
-function getRandomizer(bottom, top) {
-    return function() {
-        return Math.floor( Math.random() * ( 1 + top - bottom ) ) + bottom;
-    }
+function randomNumber(minimum, maximum){
+    return Math.round( Math.random() * (maximum - minimum) + minimum);
 }
 
-var rollDie = getRandomizer( 1, 6 );
+
+var rollDie = randomNumber( 1, 6 );
