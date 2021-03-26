@@ -8,23 +8,17 @@ function randomNumber(minimum, maximum){
 
 function NytTalPull (){
     var NytTal = randomNumber( 1, 5 );
-    var check = true;
-    while (UdtrukneTal.includes(NytTal)==true);
-    {
-        var NytTal = randomNumber( 1, 5 );
-    }
+        while (UdtrukneTal.includes(NytTal)==true);
+        {
+            var NytTal = randomNumber( 1, 5 );
+        }
     console.log (NytTal);
     //PrintCurrentTal(NytTal);
-    console.log (UdtrukneTal)
+    
+    UdtrukneTal.push (NytTal);
+    console.log (UdtrukneTal);
 }
 
 function PrintCurrentTal (NytTal){
     document.write(NytTal);
-}
-
-function CheckTal (NytTal){
-if (Nyt)
-
-    UdtrukneTal.push (NytTal);
-
 }
