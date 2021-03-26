@@ -3,16 +3,15 @@
 <script src="Randomgenerator.js"></script>
 
 Velkommen til Bingobuller.dk <br>
-Test version nr. 0.067 <br>
+Test version nr. 0.066 <br>
 
 <script>
-
-
+    var CurrentTal = rollDieX;
+    var UdtrukneTal=[];
     UdtrukneTal.push (CurrentTal);
     console.log (UdtrukneTal)
 </script>
-
-Det nye tal er; <script>NytTalpull ();</script>
+Det nye tal er; <script>document.write(CurrentTal);</script>
 
 <br>
 Allerede trukne tal; <script>     
