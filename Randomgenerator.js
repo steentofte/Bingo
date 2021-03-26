@@ -14,6 +14,7 @@ function NytTalPull (){
     UdtrukneTal.push (NytTal);
     //PrintCurrentTal(NytTal);
     console.log (NytTal);
+    console.log (UdtrukneTal)
 }
 
 function PrintCurrentTal (NytTal){
