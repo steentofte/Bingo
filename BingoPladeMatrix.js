@@ -10,11 +10,11 @@ function randomNumber(minimum, maximum){
     return Math.round( Math.random() * (maximum - minimum) + minimum);
 }
 
-function BingoPladeGenerator(){
-    for (i = 0; i < MaxNumber; i++) {
-        var PladeNummer = rollDie;
-        BingoArray.push (PladeNummer);
-        document.getElementById("p1").innerHTML = PladeNummer;
-        console.log(PladeNummer);
+function NewPlate(){
+  //  for (i = 0; i < MaxNumber; i++) {
+  //      var PladeNummer = rollDie;
+  //      BingoArray.push (PladeNummer);
+  //      document.getElementById("p1").innerHTML = PladeNummer;
+  //      console.log(PladeNummer);
     }
 }
