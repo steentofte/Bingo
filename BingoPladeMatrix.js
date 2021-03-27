@@ -63,39 +63,39 @@ function GenererPlade(){
 
 
     for (y = 0; y < R1; y++){
-        BingoPlade.push (1,"*");
+        PladeNy.push (1,"*");
     }
     for (x = 0; x < R2; x++){
         NytTal20 = randomNumber( 11, 20 );
         if (PladeNy.includes(NytTal20)==true)
             {
-                NytTal20 = randomNumber( 11, 20 );
+            NytTal20 = randomNumber( 11, 20 );
                console.log(NytTal20);
             }
-        BingoPlade.push (2,NytTal20);
+        PladeNy.push (2,NytTal20);
         }    
     for (x = 0; x < R3; x++){
-            BingoPlade.push (3,"*");
+            PladeNy.push (3,"*");
         } 
     for (x = 0; x < R4; x++){
-            BingoPlade.push (4,"*");
+            PladeNy.push (4,"*");
         } 
     for (x = 0; x < R5; x++){
-            BingoPlade.push (5,"*");
+            PladeNy.push (5,"*");
         } 
     for (x = 0; x < R6; x++){
-            BingoPlade.push (6,"*");
+            PladeNy.push (6,"*");
         } 
     for (x = 0; x < R7; x++){
-            BingoPlade.push (7,"*");
+            PladeNy.push (7,"*");
         } 
     for (x = 0; x < R8; x++){
-            BingoPlade.push (8,"*");
+            PladeNy.push (8,"*");
         } 
     for (x = 0; x < R9; x++){
-            BingoPlade.push (9,"*");
+            PladeNy.push (9,"*");
         } 
-    console.log(BingoPlade);    
+    console.log(PladeNy);    
     }
 
     function GenererBingoNumrer (){
