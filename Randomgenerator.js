@@ -1,4 +1,4 @@
-var rollDie = randomNumber( 1, 10 );
+var rollDie = randomNumber( 0, 91 );
 var CurrentTal = rollDie;
 var UdtrukneTal=[];
 
@@ -7,10 +7,10 @@ function randomNumber(minimum, maximum){
 }
 
 function NytTalPull (){
-    var NytTal = randomNumber( 1, 10 );
+    var NytTal = randomNumber( 0, 91 );
         if (UdtrukneTal.includes(NytTal)==true)
         {
-            var NytTal = randomNumber( 1, 10 );
+            var NytTal = randomNumber( 0, 91 );
         }
         else
         {
