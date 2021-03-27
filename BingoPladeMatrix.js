@@ -13,4 +13,5 @@ function BingoPladeGenerator (){
         BingoArray.push (PladeNummer);
         document.getElementById("p1").innerHTML = PladeNummer;
         console.log(PladeNummer);
+    }
 }
