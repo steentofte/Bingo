@@ -7,6 +7,7 @@ var StartTal = 1;
 var SlutTal = 90;
 var BingoArray = [];
 var BingoPlade = [];
+var PladeNy = [];
 var R1 = 1;
 var R2 = 1;
 var R3 = 1;
@@ -50,11 +51,26 @@ function BingoMatrix(){
 }
 
 function GenererPlade(){
+    var NytTal10 = randomNumber( 1, 10 );
+    var NytTal20 = randomNumber( 11, 20 );
+    var NytTal30 = randomNumber( 21, 30 );
+    var NytTal40 = randomNumber( 31, 40 );
+    var NytTal50 = randomNumber( 41, 50 );
+    var NytTal60 = randomNumber( 51, 60 );
+    var NytTal70 = randomNumber( 61, 70 );
+    var NytTal80 = randomNumber( 71, 80 );
+    var NytTal90 = randomNumber( 81, 90 );
+
+
     for (y = 0; y < R1; y++){
         BingoPlade.push (1,"*");
     }
     for (x = 0; x < R2; x++){
-            BingoPlade.push (2,"*");
+        if (PladeNy.includes(NytTal20)==true)
+            {
+               var NytTal20 = randomNumber( 11, 20 );
+            }
+        BingoPlade.push (2,NytTal20);
         }    
     for (x = 0; x < R3; x++){
             BingoPlade.push (3,"*");
@@ -81,5 +97,30 @@ function GenererPlade(){
     }
 
     function GenererBingoNumrer (){
+            var NytTal10 = randomNumber( 1, 10 );
+            var NytTal20 = randomNumber( 11, 20 );
+            var NytTal30 = randomNumber( 21, 30 );
+            var NytTal40 = randomNumber( 31, 40 );
+            var NytTal50 = randomNumber( 41, 50 );
+            var NytTal60 = randomNumber( 51, 60 );
+            var NytTal70 = randomNumber( 61, 70 );
+            var NytTal80 = randomNumber( 71, 80 );
+            var NytTal90 = randomNumber( 81, 90 );
+            
+
+               
+                    CurrentTal = NytTal;
+                    console.log (NytTal);
+                    UdtrukneTal.push (NytTal);
+                    console.log (UdtrukneTal);
+                    var table = document.getElementById("MyTable");
+                    var row = table.insertRow(0);
+                    var cell1 = row.insertCell(0);
+                    cell1.innerHTML = NytTal;
+                    showNytTal();
+                }
+        }
+
+
 
     }
