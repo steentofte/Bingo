@@ -8,6 +8,8 @@ function randomNumber(minimum, maximum){
 }
 
 function NytTalPull (){
+    var NytTal = randomNumber( 0, 16 );
+    CurrentTal = NytTal;
         if (UdtrukneTal.includes(NytTal)==true)
         {
             var NytTal = randomNumber( 0, 16 );
@@ -39,5 +41,5 @@ function PrintTal() {
   }
 
   function showMessage() {
-    document.getElementById('message').textContent = NytTal;
+    document.getElementById('message').textContent = CurrentTal;
 }
