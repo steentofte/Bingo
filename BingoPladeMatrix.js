@@ -51,10 +51,10 @@ function BingoMatrix(){
 }
 
 function GenererPlade(){
-    for (i = 0; i < R1; i++){
+    for (y = 0; y < R1; y++){
         BingoPlade.push (1,"*");
         }
-    for (i = 0; i < R2; i++){
+    for (x = 0; x < R2; x++){
             BingoPlade.push (2,"*");
         }    
     console.log(BingoPlade)    
