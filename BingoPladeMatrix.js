@@ -11,11 +11,11 @@ function randomNumber(minimum, maximum){
 }
 
 function NewPlate(){
-    for (i = 0; i < MaxNumber; i++) {
+    for (i = 1; i < MaxNumber; i++) {
         console.log(i)
         var PladeNummer = rollDie;
         BingoArray.push (PladeNummer);
-        document.getElementById("p4").innerHTML = PladeNummer;
+        document.getElementById(i).innerHTML = PladeNummer;
         console.log(PladeNummer);
     }
 }
