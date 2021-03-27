@@ -52,7 +52,6 @@ function BingoMatrix(){
 function GenererPlade(){
     for (y = 0; y < R1; y++){
         BingoPlade.push (1,"*");
-        console.log("xx");
     }
     for (x = 0; x < R2; x++){
             BingoPlade.push (2,"*");
@@ -82,5 +81,5 @@ function GenererPlade(){
     }
 
     function GenererBingoNumrer (){
-        
+
     }
