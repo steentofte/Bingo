@@ -66,9 +66,10 @@ function GenererPlade(){
         BingoPlade.push (1,"*");
     }
     for (x = 0; x < R2; x++){
+        NytTal20 = randomNumber( 11, 20 );
         if (PladeNy.includes(NytTal20)==true)
             {
-               var NytTal20 = randomNumber( 11, 20 );
+                NytTal20 = randomNumber( 11, 20 );
                console.log(NytTal20);
             }
         BingoPlade.push (2,NytTal20);
