@@ -1,3 +1,8 @@
-function showMessage(message) {
-    document.getElementById('message').textContent = message;
-}
+let person  = {
+    firstname: 'John',
+    middlename: 'Svend-Arne',
+    lastname: 'Adams'
+};
+
+
+showMessage(person.middlename);
