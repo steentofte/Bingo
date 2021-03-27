@@ -13,7 +13,8 @@ function randomNumber(minimum, maximum){
 function NewPlate(){
     for (i = 1; i < MaxNumber; i++) {
         console.log(i)
-        var PladeNummer = rollDie;
+        var PladeNummer = randomNumber( 1, 90 );
+        console.log(PladeNummer);
         BingoArray.push (PladeNummer);
         document.getElementById(i).innerHTML = PladeNummer;
         console.log(PladeNummer);
