@@ -34,6 +34,7 @@ function BingoMatrix(){
         var R8 = randomNumber( 1, 3 );
         var R9 = randomNumber( 1, 3 );
     TotalN = R1+R2+R3+R4+R5+R6+R7+R8+R9;
+    console.log(R1,R2,R3,R4,R5,R6,R7,R8,R9)
     console.log (TotalN);
 }
 
