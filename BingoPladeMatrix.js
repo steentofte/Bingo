@@ -5,6 +5,7 @@ var MaxSpread = 10;
 var StartTal = 1;
 var SlutTal = 90;
 var BingoArray = [];
+var BingoPlade = [];
 var R1 = 1;
 var R2 = 1;
 var R3 = 1;
@@ -45,7 +46,15 @@ function BingoMatrix(){
     TotalN = R1+R2+R3+R4+R5+R6+R7+R8+R9;
     console.log(R1,R2,R3,R4,R5,R6,R7,R8,R9)
     console.log (TotalN);
+    
 }
-
+function GenererPlade(){
+    for (i = 0; i < R1; i++){
+        BingoPlade.push (1,"*");
+        }
+    for (i = 0; i < R2; i++){
+            BingoPlade.push (2,"*");
+        }    
+}
 
 }
