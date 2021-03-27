@@ -55,9 +55,9 @@ function GenererPlade(){
         BingoPlade.push (1,"*");
         console.log("xx");
     }
-    //for (x = 0; x < R2; x++){
-    //        BingoPlade.push (2,"*");
-    //    }    
-    console.log(R1);
+    for (x = 0; x < R2; x++){
+            BingoPlade.push (2,"*");
+        }    
+    console.log(R1,R2);
     console.log(BingoPlade);    
     }
