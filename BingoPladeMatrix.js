@@ -64,7 +64,7 @@ function GenererPlade(){
 
     for (y = 0; y < R1; y++){
         NytTal10 = randomNumber( 1, 10 );
-        if (PladeNy.includes(NytTal10)==true)
+        while (PladeNy.includes(NytTal10)==true)
             {
             NytTal20 = randomNumber( 1, 10 );
                console.log(NytTal10);
@@ -83,7 +83,7 @@ function GenererPlade(){
         }    
     for (x = 0; x < R3; x++){
         NytTal30 = randomNumber( 21, 30 );
-        if (PladeNy.includes(NytTal10)==true)
+        while (PladeNy.includes(NytTal10)==true)
             {
             NytTal30 = randomNumber( 21, 30 );
                console.log(NytTal30);
@@ -93,7 +93,7 @@ function GenererPlade(){
 
     for (x = 0; x < R4; x++){
         NytTal40 = randomNumber( 31, 40 );
-        if (PladeNy.includes(NytTal40)==true)
+        while (PladeNy.includes(NytTal40)==true)
             {
             NytTal40 = randomNumber( 31, 40 );
                console.log(NytTal40);
@@ -103,7 +103,7 @@ function GenererPlade(){
 
     for (x = 0; x < R5; x++){
         NytTal50 = randomNumber( 41, 50 );
-        if (PladeNy.includes(NytTal50)==true)
+        while (PladeNy.includes(NytTal50)==true)
             {
             NytTal50 = randomNumber( 41, 50 );
                console.log(NytTal50);
@@ -113,7 +113,7 @@ function GenererPlade(){
 
     for (x = 0; x < R6; x++){
         NytTal60 = randomNumber( 51, 60 );
-        if (PladeNy.includes(NytTal60)==true)
+        while (PladeNy.includes(NytTal60)==true)
             {
             NytTal60 = randomNumber( 51, 60 );
                console.log(NytTal60);
@@ -123,7 +123,7 @@ function GenererPlade(){
 
     for (x = 0; x < R7; x++){
         NytTal70 = randomNumber( 61, 70 );
-        if (PladeNy.includes(NytTal70)==true)
+        while (PladeNy.includes(NytTal70)==true)
             {
             NytTal70 = randomNumber( 61, 70 );
                console.log(NytTal70);
@@ -133,7 +133,7 @@ function GenererPlade(){
             
     for (x = 0; x < R8; x++){
         NytTal80 = randomNumber( 71, 80 );
-        if (PladeNy.includes(NytTal80)==true)
+        while (PladeNy.includes(NytTal80)==true)
             {
             NytTal80 = randomNumber( 71, 80 );
                console.log(NytTal80);
@@ -143,7 +143,7 @@ function GenererPlade(){
 
     for (x = 0; x < R9; x++){
         NytTal90 = randomNumber( 81, 90 );
-        if (PladeNy.includes(NytTal90)==true)
+        while (PladeNy.includes(NytTal90)==true)
             {
             NytTal90 = randomNumber( 81, 90 );
                console.log(NytTal90);
