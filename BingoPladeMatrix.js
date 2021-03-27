@@ -11,10 +11,10 @@ function randomNumber(minimum, maximum){
 }
 
 function NewPlate(){
-  //  for (i = 0; i < MaxNumber; i++) {
-  //      var PladeNummer = rollDie;
-  //      BingoArray.push (PladeNummer);
-  //      document.getElementById("p1").innerHTML = PladeNummer;
-  //      console.log(PladeNummer);
-  //  }
+    for (i = 0; i < MaxNumber; i++) {
+        var PladeNummer = rollDie;
+        BingoArray.push (PladeNummer);
+        document.getElementById("p1").innerHTML = PladeNummer;
+        console.log(PladeNummer);
+    }
 }
