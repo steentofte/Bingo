@@ -33,15 +33,6 @@ function PrintCurrentTal (NytTal){
     document.write(NytTal);
 }
 
-function PrintTal() {
-    var table = document.getElementById("MyTable");
-    var row = table.insertRow(0);
-    var cell1 = row.insertCell(0);
-
-    cell1.innerHTML = NytTal;
-
-  }
-
-  function showMessage() {
+function showNytTal() {
     document.getElementById('message').textContent = CurrentTal;
 }
