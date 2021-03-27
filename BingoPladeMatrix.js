@@ -63,8 +63,15 @@ function GenererPlade(){
 
 
     for (y = 0; y < R1; y++){
-        PladeNy.push (1,"*");
-    }
+        NytTal10 = randomNumber( 1, 10 );
+        if (PladeNy.includes(NytTal10)==true)
+            {
+            NytTal20 = randomNumber( 1, 10 );
+               console.log(NytTal10);
+            }
+        PladeNy.push (1,NytTal10);
+        }    
+        
     for (x = 0; x < R2; x++){
         NytTal20 = randomNumber( 11, 20 );
         if (PladeNy.includes(NytTal20)==true)
@@ -75,26 +82,75 @@ function GenererPlade(){
         PladeNy.push (2,NytTal20);
         }    
     for (x = 0; x < R3; x++){
-            PladeNy.push (3,"*");
-        } 
+        NytTal30 = randomNumber( 21, 30 );
+        if (PladeNy.includes(NytTal10)==true)
+            {
+            NytTal30 = randomNumber( 21, 30 );
+               console.log(NytTal30);
+            }
+        PladeNy.push (3,NytTal30);
+        }    
+
     for (x = 0; x < R4; x++){
-            PladeNy.push (4,"*");
-        } 
+        NytTal40 = randomNumber( 31, 40 );
+        if (PladeNy.includes(NytTal40)==true)
+            {
+            NytTal40 = randomNumber( 31, 40 );
+               console.log(NytTal40);
+            }
+        PladeNy.push (4,NytTal40);
+        }   
+
     for (x = 0; x < R5; x++){
-            PladeNy.push (5,"*");
-        } 
+        NytTal50 = randomNumber( 41, 50 );
+        if (PladeNy.includes(NytTal50)==true)
+            {
+            NytTal50 = randomNumber( 41, 50 );
+               console.log(NytTal50);
+            }
+        PladeNy.push (5,NytTal50);
+        }
+
     for (x = 0; x < R6; x++){
-            PladeNy.push (6,"*");
-        } 
+        NytTal60 = randomNumber( 51, 60 );
+        if (PladeNy.includes(NytTal60)==true)
+            {
+            NytTal60 = randomNumber( 51, 60 );
+               console.log(NytTal60);
+            }
+        PladeNy.push (6,NytTal60);
+        }    
+
     for (x = 0; x < R7; x++){
-            PladeNy.push (7,"*");
-        } 
+        NytTal70 = randomNumber( 61, 70 );
+        if (PladeNy.includes(NytTal70)==true)
+            {
+            NytTal70 = randomNumber( 61, 70 );
+               console.log(NytTal70);
+            }
+        PladeNy.push (7,NytTal70);
+        }    
+            
     for (x = 0; x < R8; x++){
-            PladeNy.push (8,"*");
-        } 
+        NytTal80 = randomNumber( 71, 80 );
+        if (PladeNy.includes(NytTal80)==true)
+            {
+            NytTal80 = randomNumber( 71, 80 );
+               console.log(NytTal80);
+            }
+        PladeNy.push (1,NytTal80);
+        }        
+
     for (x = 0; x < R9; x++){
-            PladeNy.push (9,"*");
-        } 
+        NytTal90 = randomNumber( 81, 90 );
+        if (PladeNy.includes(NytTal90)==true)
+            {
+            NytTal90 = randomNumber( 81, 90 );
+               console.log(NytTal90);
+            }
+        PladeNy.push (9,NytTal90);
+        }    
+
     console.log(PladeNy);    
     }
 
