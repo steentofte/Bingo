@@ -1,5 +1,6 @@
 var rollDie = randomNumber( 1, 90 );
 var MaxNumber = 15;
+var MinLinje = 1;
 var MaxLinje = 3;
 var MaxSpread = 10;
 var StartTal = 1;
@@ -33,19 +34,17 @@ function NewPlate(){
 
 function BingoMatrix(){
     var TotalN = 0;
-    while (TotalN !== 15){
-        R1 = randomNumber( 1, 3 );
-        R2 = randomNumber( 1, 3 );
-        R3 = randomNumber( 1, 3 );
-        R4 = randomNumber( 1, 3 );
-        R5 = randomNumber( 1, 3 );
-        R6 = randomNumber( 1, 3 );
-        R7 = randomNumber( 1, 3 );
-        R8 = randomNumber( 1, 3 );
-        R9 = randomNumber( 1, 3 );
+    while (TotalN !== MaxNumber){
+        R1 = randomNumber( MinLinje, MaxLinje );
+        R2 = randomNumber( MinLinje, MaxLinje );
+        R3 = randomNumber( MinLinje, MaxLinje );
+        R4 = randomNumber( MinLinje, MaxLinje );
+        R5 = randomNumber( MinLinje, MaxLinje );
+        R6 = randomNumber( MinLinje, MaxLinje );
+        R7 = randomNumber( MinLinje, MaxLinje );
+        R8 = randomNumber( MinLinje, MaxLinje );
+        R9 = randomNumber( MinLinje, MaxLinje );
     TotalN = R1+R2+R3+R4+R5+R6+R7+R8+R9;
-    console.log(R1,R2,R3,R4,R5,R6,R7,R8,R9)
-    console.log (TotalN);
         }
     GenererPlade();   
 }
@@ -81,3 +80,5 @@ function GenererPlade(){
         } 
     console.log(BingoPlade);    
     }
+
+    function GenererBingoNumrer ();
