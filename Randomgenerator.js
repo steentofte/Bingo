@@ -1,23 +1,13 @@
 var rollDie = randomNumber( 0, 16 );
 var CurrentTal = rollDie;
 var UdtrukneTal=[];
-
-let person  = {
-    firstname: 'John',
-    middlename: 'Svend-Arne',
-    lastname: 'Adams'
-};
-
-
-
-
+var NytTal = randomNumber( 0, 16 );
 
 function randomNumber(minimum, maximum){
     return Math.round( Math.random() * (maximum - minimum) + minimum);
 }
 
 function NytTalPull (){
-    var NytTal = randomNumber( 0, 16 );
         if (UdtrukneTal.includes(NytTal)==true)
         {
             var NytTal = randomNumber( 0, 16 );
