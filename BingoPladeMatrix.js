@@ -27,8 +27,8 @@ function NewPlate(){
         console.log(PladeNummer);
         BingoArray.push (PladeNummer);
         document.getElementById(i).innerHTML = PladeNummer;
-        BingoMatrix();
     }
+    BingoMatrix();
 }
 
 function BingoMatrix(){
