@@ -26,7 +26,7 @@ function PrintCurrentTal (NytTal){
 }
 
 function PrintTal() {
-    var table = document.getElementById("myTable");
+    var table = document.getElementById("TrukneTal");
     var row = table.insertRow(0);
     var cell1 = row.insertCell(0);
 
