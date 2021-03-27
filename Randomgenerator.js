@@ -9,7 +9,7 @@ let person  = {
 };
 
 
-showMessage(person.middlename);
+
 
 
 function randomNumber(minimum, maximum){
