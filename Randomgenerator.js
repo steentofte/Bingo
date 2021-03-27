@@ -9,13 +9,14 @@ function randomNumber(minimum, maximum){
 
 function NytTalPull (){
     var NytTal = randomNumber( 0, 16 );
-    CurrentTal = NytTal;
+    
         if (UdtrukneTal.includes(NytTal)==true)
         {
             var NytTal = randomNumber( 0, 16 );
         }
         else
         {
+            CurrentTal = NytTal;
             console.log (NytTal);
             //PrintCurrentTal(NytTal);
             UdtrukneTal.push (NytTal);
@@ -24,6 +25,7 @@ function NytTalPull (){
             var row = table.insertRow(0);
             var cell1 = row.insertCell(0);
             cell1.innerHTML = NytTal;
+            showMessage ();
         }
 }
 
