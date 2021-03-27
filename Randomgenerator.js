@@ -25,7 +25,7 @@ function PrintCurrentTal (NytTal){
     document.write(NytTal);
 }
 
-function myFunction() {
+function PrintTal() {
     var table = document.getElementById("myTable");
     var row = table.insertRow(0);
     var cell1 = row.insertCell(0);
