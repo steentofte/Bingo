@@ -83,7 +83,7 @@ function GenererPlade(){
         }    
     for (x = 0; x < R3; x++){
         NytTal30 = randomNumber( 21, 30 );
-        while (PladeNy.includes(NytTal10)==true)
+        while (PladeNy.includes(NytTal30)==true)
             {
             NytTal30 = randomNumber( 21, 30 );
                console.log(NytTal30);
