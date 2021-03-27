@@ -38,6 +38,6 @@ function PrintTal() {
 
   }
 
-  function showMessage(message) {
+  function showMessage() {
     document.getElementById('message').textContent = NytTal;
 }
