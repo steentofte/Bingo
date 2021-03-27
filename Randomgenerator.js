@@ -1,18 +1,18 @@
-var rollDie = randomNumber( 0, 16 );
+var rollDie = randomNumber( 1, 90 );
 var CurrentTal = rollDie;
 var UdtrukneTal=[];
-var NytTal = randomNumber( 0, 16 );
+var NytTal = randomNumber( 1, 90 );
 
 function randomNumber(minimum, maximum){
     return Math.round( Math.random() * (maximum - minimum) + minimum);
 }
 
 function NytTalPull (){
-    var NytTal = randomNumber( 0, 16 );
+    var NytTal = randomNumber( 1, 90 );
     
         if (UdtrukneTal.includes(NytTal)==true)
         {
-            var NytTal = randomNumber( 0, 16 );
+            var NytTal = randomNumber( 1, 90 );
         }
         else
         {
