@@ -81,4 +81,6 @@ function GenererPlade(){
     console.log(BingoPlade);    
     }
 
-    function GenererBingoNumrer ();
+    function GenererBingoNumrer (){
+        
+    }
