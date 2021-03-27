@@ -46,8 +46,9 @@ function BingoMatrix(){
     TotalN = R1+R2+R3+R4+R5+R6+R7+R8+R9;
     console.log(R1,R2,R3,R4,R5,R6,R7,R8,R9)
     console.log (TotalN);
-    
+    GenererPlade();    
 }
+
 function GenererPlade(){
     for (i = 0; i < R1; i++){
         BingoPlade.push (1,"*");
