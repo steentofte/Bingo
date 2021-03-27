@@ -2,6 +2,16 @@ var rollDie = randomNumber( 0, 16 );
 var CurrentTal = rollDie;
 var UdtrukneTal=[];
 
+let person  = {
+    firstname: 'John',
+    middlename: 'Svend-Arne',
+    lastname: 'Adams'
+};
+
+
+showMessage(person.middlename);
+
+
 function randomNumber(minimum, maximum){
     return Math.round( Math.random() * (maximum - minimum) + minimum);
 }
