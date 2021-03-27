@@ -16,6 +16,6 @@ function NewPlate(){
         var PladeNummer = randomNumber( 1, 90 );
         console.log(PladeNummer);
         BingoArray.push (PladeNummer);
-        document.getElementById("p"+i).innerHTML = PladeNummer;
+        document.getElementById(i).innerHTML = PladeNummer;
     }
 }
