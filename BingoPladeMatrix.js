@@ -119,8 +119,6 @@ function GenererPlade(){
                     cell1.innerHTML = NytTal;
                     showNytTal();
                 }
-        }
+        
 
-
-
-    }
+    
