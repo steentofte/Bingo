@@ -12,9 +12,10 @@ function randomNumber(minimum, maximum){
 
 function NewPlate(){
     for (i = 0; i < MaxNumber; i++) {
+        console.log(i)
         var PladeNummer = rollDie;
         BingoArray.push (PladeNummer);
-        document.getElementById(i).innerHTML = PladeNummer;
+        document.getElementById("p1").innerHTML = PladeNummer;
         console.log(PladeNummer);
     }
 }
