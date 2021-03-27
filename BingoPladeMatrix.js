@@ -14,7 +14,7 @@ function NewPlate(){
     for (i = 0; i < MaxNumber; i++) {
         var PladeNummer = rollDie;
         BingoArray.push (PladeNummer);
-        document.getElementById("p1").innerHTML = PladeNummer;
+        document.getElementById("p"+i).innerHTML = PladeNummer;
         console.log(PladeNummer);
     }
 }
