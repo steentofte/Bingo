@@ -66,8 +66,8 @@ function GenererPlade(){
         NytTal10 = randomNumber( 1, 10 );
         while (PladeNy.includes(NytTal10)==true)
             {
-            NytTal20 = randomNumber( 1, 10 );
-               console.log(NytTal10);
+            NytTal10 = randomNumber( 1, 10 );
+               console.log(NytTal10[1]);
             }
         PladeNy.push (1,NytTal10);
         }    

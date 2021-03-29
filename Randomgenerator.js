@@ -18,7 +18,6 @@ function NytTalPull (){
         {
             CurrentTal = NytTal;
             console.log (NytTal);
-            //PrintCurrentTal(NytTal);
             UdtrukneTal.push (NytTal);
             console.log (UdtrukneTal);
             var table = document.getElementById("MyTable");
