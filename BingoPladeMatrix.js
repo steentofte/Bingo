@@ -184,8 +184,9 @@ function GenererPlade(){
 function MakeRows (){
     const PladeNyR1 = PladeNy;
     for (x = 0; x < Raekke; x++){
-    const PickRowNumber = Math.floor(Math.random() * PladeNyR1.length | 0);
-    console.log(PickRowNumber, PladeNy[PickRowNumber]);
+    const random = Math.floor(Math.random() * PladeNyR1.length | 0);
+    console.log(random, PladeNyR1[random]);
+    PickRowNumber = PladeNyR1[random];
     PladeNyR1.pop (PickRowNumber);
     console.log(PladeNyR1);
     Row1.push (PickRowNumber);
