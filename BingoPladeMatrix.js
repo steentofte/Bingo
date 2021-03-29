@@ -187,7 +187,7 @@ function MakeRows (){
     const random = Math.floor(Math.random() * PladeNyR1.length | 0);
     console.log(random, PladeNyR1[random]);
     PickRowNumber = PladeNyR1[random];
-    PladeNyR1.pop (PickRowNumber);
+    delete PladeNyR1[random];
     console.log(PladeNyR1);
     Row1.push (PickRowNumber);
     console.log(Row1);
