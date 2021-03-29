@@ -5,6 +5,7 @@ var MaxLinje = 3;
 var MaxSpread = 10;
 var StartTal = 1;
 var SlutTal = 90;
+var Raekke = 5;
 var BingoArray = [];
 var BingoPlade = [];
 var PladeNy = [];
@@ -181,9 +182,12 @@ function GenererPlade(){
                 }
         
 function MakeRows (){
-    
+    for (x = 0; x < Raekke; x++){
     const PickRowNumber = Math.floor(Math.random() * PladeNy.length);
     console.log(PickRowNumber, PladeNy[PickRowNumber]);
+    Row1.push (PickRowNumber);
+    console.log(Row1);
+    }
 }
 
     
