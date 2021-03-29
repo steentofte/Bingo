@@ -8,6 +8,9 @@ var SlutTal = 90;
 var BingoArray = [];
 var BingoPlade = [];
 var PladeNy = [];
+var Row1 = [];
+var Row2 = [];
+var Row3 = [];
 var R1 = 1;
 var R2 = 1;
 var R3 = 1;
@@ -151,7 +154,8 @@ function GenererPlade(){
         PladeNy.push (9,NytTal90);
         }    
 
-    console.log(PladeNy);    
+    console.log(PladeNy);
+    MakeRows();    
     }
 
     function GenererBingoNumrer (){
@@ -176,5 +180,10 @@ function GenererPlade(){
                     showNytTal();
                 }
         
+function MakeRows (){
+    
+    const PickRowNumber = Math.floor(Math.random() * PladeNy.length);
+    console.log(PickRowNumber, PladeNy[random]);
+}
 
     
