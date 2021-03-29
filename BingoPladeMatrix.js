@@ -69,7 +69,7 @@ function GenererPlade(){
             NytTal10 = randomNumber( 1, 10 );
                console.log(NytTal10);
             }
-        PladeNy.push (1,NytTal10[1]);
+        PladeNy.push (1,NytTal10);
         }    
 
     for (x = 0; x < R2; x++){
