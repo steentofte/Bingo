@@ -8,7 +8,7 @@ var SlutTal = 90;
 var Raekke = 5;
 var BingoArray = [];
 var BingoPlade = [];
-const PladeNy = [];
+var PladeNy = [];
 var Row1 = [];
 var Row2 = [];
 var Row3 = [];
@@ -68,7 +68,7 @@ function GenererPlade(){
 
     for (y = 0; y < R1; y++){
         NytTal10 = randomNumber( 1, 3 );
-        console.log(PladeNy);
+        console.log(PladeNy.values);
         console.log(NytTal10);
         var n = PladeNy.includes(NytTal10);
         console.log(n);
