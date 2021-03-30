@@ -76,7 +76,7 @@ function GenererPlade(){
                console.log(NytTal10);
                console.log("fuck")
             }
-        PladeNy.push ([1,NytTal10]);
+        PladeNy.push ([NytTal10]);
         }    
 /*
     for (x = 0; x < R2; x++){
