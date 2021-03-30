@@ -87,9 +87,11 @@ function GenererPlade(){
 for (x = 0; x < 9; x++){
     for (y=0; y < RTotal[x]; y++){
         var NewNumber = randomNumber (x*10+1, x*10+10);
-        console.log (PladeNy.includes(NewNumber));
+        while (PladeNy.includes(NewNumber)){
+            var NewNumber = randomNumber (x*10+1, x*10+10);
+            console.log ("nyt nummer trukket");
+        }
         PladeNy.push (NewNumber);
-        
         console.log(PladeNy);
     }
 }
