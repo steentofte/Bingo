@@ -74,7 +74,7 @@ function GenererPlade(){
             NytTal10 = randomNumber( 1, 10 );
                console.log(NytTal10);
             }
-        PladeNy.push ([{row: 1,tal: NytTal10}]);
+        PladeNy.push ([row: 1,tal: NytTal10]);
         }    
 
     for (x = 0; x < R2; x++){
@@ -198,15 +198,19 @@ function MakeRows (){
 
 function PlateLayout (){
     console.log(R1);
-    var count = 0;
+    let count = 0;
     var layoutR1 = [];
 
     while (count !== R1){
         var randomBoolean = Math.random() < 0.5;
         layoutR1.push ([randomBoolean]);
-        count = layoutR1.filter(true).length;
+        layoutR1.forEach(v => v ? count++ : v);
         console.table(layoutR1);
         console.log(count);
     }
+    
+
+   
+
 
 }
