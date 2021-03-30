@@ -102,7 +102,7 @@ function GenererPlade(){
             NytTal40 = randomNumber( 31, 40 );
                console.log(NytTal40);
             }
-        PladeNy.push (4,NytTal40];
+        PladeNy.push (4,NytTal40);
         }   
 
     for (x = 0; x < R5; x++){
