@@ -204,7 +204,7 @@ function PlateLayout (){
     while (count !== R1){
         var randomBoolean = Math.random() < 0.5;
         layoutR1.push ([randomBoolean]);
-        count = layoutR1.filter(Boolean).length;
+        count = layoutR1.filter(true).length;
         console.table(layoutR1);
         console.log(count);
     }
