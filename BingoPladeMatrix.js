@@ -21,7 +21,7 @@ var R6 = 1;
 var R7 = 1;
 var R8 = 1;
 var R9 = 1;
-var layout [];
+var layout = [];
 
 function randomNumber(minimum, maximum){
     return Math.round( Math.random() * (maximum - minimum) + minimum);
