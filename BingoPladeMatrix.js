@@ -76,7 +76,7 @@ function GenererPlade(){
             }
         PladeNy.push ([1,NytTal10]);
         }    
-
+/*
     for (x = 0; x < R2; x++){
         NytTal20 = randomNumber( 11, 20 );
         while (PladeNy.includes(NytTal20)==true)
@@ -155,7 +155,7 @@ function GenererPlade(){
             }
         PladeNy.push ([9,NytTal90]);
         }    
-
+*/
     console.table(PladeNy);
     MakeRows();    
     }
@@ -186,12 +186,12 @@ function MakeRows (){
     const PladeNyR1 = PladeNy;
     //for (x = 0; x < Raekke; x++){
     const random = Math.floor(Math.random() * PladeNyR1.length | 0);
-    console.log(random, PladeNyR1[random]);
+    //console.log(random, PladeNyR1[random]);
     PickRowNumber = PladeNyR1[random];
     delete PladeNyR1[random];
-    console.log(PladeNyR1);
+    //console.log(PladeNyR1);
     Row1.push (PickRowNumber);
-    console.log(Row1);
+    //console.log(Row1);
    // }
     PlateLayout();
 }
