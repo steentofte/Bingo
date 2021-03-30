@@ -87,7 +87,7 @@ function GenererPlade(){
     if (R1 = 2)
         {
             NytTal10 = randomNumber( 1, 10 );
-                while (Nyttal10 == tal1)
+                while (NytTal10 == tal1)
                     {
                         NytTal10 = randomNumber( 1, 10 );
                     }
