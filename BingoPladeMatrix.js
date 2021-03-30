@@ -201,7 +201,7 @@ function PlateLayout (){
         var randomBoolean = Math.random() < 0.5;
         layout.push ([x, randomBoolean]);
         console.table (layout);
-
+    }
 }
 
     
