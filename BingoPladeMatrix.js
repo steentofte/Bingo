@@ -74,136 +74,20 @@ function BingoMatrix(){
 }
 
 function GenererPlade(){
-    var NytTal10 = randomNumber( 1, 10 );
-    var NytTal20 = randomNumber( 11, 20 );
-    var NytTal30 = randomNumber( 21, 30 );
-    var NytTal40 = randomNumber( 31, 40 );
-    var NytTal50 = randomNumber( 41, 50 );
-    var NytTal60 = randomNumber( 51, 60 );
-    var NytTal70 = randomNumber( 61, 70 );
-    var NytTal80 = randomNumber( 71, 80 );
-    var NytTal90 = randomNumber( 81, 90 );
-
 for (x = 0; x < 9; x++){
     for (y=0; y < RTotal[x]; y++){
         var NewNumber = randomNumber (x*10+1, x*10+10);
         while (PladeNy.includes(NewNumber)){
             var NewNumber = randomNumber (x*10+1, x*10+10);
-            console.log ("nyt nummer trukket");
         }
         PladeNy.push (NewNumber);
         console.log(PladeNy);
     }
 }
-    /*tal1 = NytTal10;
-    console.log(tal1);
-
-    if (R1 == 2)
-        {
-            NytTal10 = randomNumber( 1, 10 );
-                while (NytTal10 == tal1)
-                    {
-                        NytTal10 = randomNumber( 1, 10 );
-                    }
-            tal2=NytTal10;
-            console.log(tal2);
-        }
-*/
-
-/*
-    for (x = 0; x < R2; x++){
-        NytTal20 = randomNumber( 11, 20 );
-        while (PladeNy.includes(NytTal20)==true)
-            {
-            NytTal20 = randomNumber( 11, 20 );
-               console.log(NytTal20);
-            }
-        PladeNy.push ([2,NytTal20]);
-        }    
-    for (x = 0; x < R3; x++){
-        NytTal30 = randomNumber( 21, 30 );
-        while (PladeNy.includes(NytTal30)==true)
-            {
-            NytTal30 = randomNumber( 21, 30 );
-               console.log(NytTal30);
-            }
-        PladeNy.push ([3,NytTal30]);
-        }    
-
-    for (x = 0; x < R4; x++){
-        NytTal40 = randomNumber( 31, 40 );
-        while (PladeNy.includes(NytTal40)==true)
-            {
-            NytTal40 = randomNumber( 31, 40 );
-               console.log(NytTal40);
-            }
-        PladeNy.push ([4,NytTal40]);
-        }   
-
-    for (x = 0; x < R5; x++){
-        NytTal50 = randomNumber( 41, 50 );
-        while (PladeNy.includes(NytTal50)==true)
-            {
-            NytTal50 = randomNumber( 41, 50 );
-               console.log(NytTal50);
-            }
-        PladeNy.push ([5,NytTal50]);
-        }
-
-    for (x = 0; x < R6; x++){
-        NytTal60 = randomNumber( 51, 60 );
-        while (PladeNy.includes(NytTal60)==true)
-            {
-            NytTal60 = randomNumber( 51, 60 );
-               console.log(NytTal60);
-            }
-        PladeNy.push ([6,NytTal60]);
-        }    
-
-    for (x = 0; x < R7; x++){
-        NytTal70 = randomNumber( 61, 70 );
-        while (PladeNy.includes(NytTal70)==true)
-            {
-            NytTal70 = randomNumber( 61, 70 );
-               console.log(NytTal70);
-            }
-        PladeNy.push ([7,NytTal70]);
-        }    
-            
-    for (x = 0; x < R8; x++){
-        NytTal80 = randomNumber( 71, 80 );
-        while (PladeNy.includes(NytTal80)==true)
-            {
-            NytTal80 = randomNumber( 71, 80 );
-               console.log(NytTal80);
-            }
-        PladeNy.push ([8,NytTal80]);
-        }        
-
-    for (x = 0; x < R9; x++){
-        NytTal90 = randomNumber( 81, 90 );
-        while (PladeNy.includes(NytTal90)==true)
-            {
-            NytTal90 = randomNumber( 81, 90 );
-               console.log(NytTal90);
-            }
-        PladeNy.push ([9,NytTal90]);
-        }    
-*/
-    console.table(PladeNy);
     MakeRows();    
     }
 
     function GenererBingoNumrer (){
-            var NytTal10 = randomNumber( 1, 10 );
-            var NytTal20 = randomNumber( 11, 20 );
-            var NytTal30 = randomNumber( 21, 30 );
-            var NytTal40 = randomNumber( 31, 40 );
-            var NytTal50 = randomNumber( 41, 50 );
-            var NytTal60 = randomNumber( 51, 60 );
-            var NytTal70 = randomNumber( 61, 70 );
-            var NytTal80 = randomNumber( 71, 80 );
-            var NytTal90 = randomNumber( 81, 90 );
                
                     CurrentTal = NytTal;
                     console.log (NytTal);
@@ -217,8 +101,10 @@ for (x = 0; x < 9; x++){
                 }
         
 function MakeRows (){
-    const PladeNyR1 = PladeNy;
-    //for (x = 0; x < Raekke; x++){
+    
+
+
+    /*//for (x = 0; x < Raekke; x++){
     const random = Math.floor(Math.random() * PladeNyR1.length | 0);
     //console.log(random, PladeNyR1[random]);
     PickRowNumber = PladeNyR1[random];
@@ -227,6 +113,7 @@ function MakeRows (){
     Row1.push (PickRowNumber);
     //console.log(Row1);
    // }
+   */
     PlateLayout();
 }
 
