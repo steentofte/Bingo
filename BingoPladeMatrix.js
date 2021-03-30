@@ -70,6 +70,8 @@ function GenererPlade(){
         NytTal10 = randomNumber( 1, 3 );
         console.log(PladeNy);
         console.log(NytTal10);
+        var n = PladeNy.includes(NytTal10);
+        console.log(n);
         if (PladeNy.includes(NytTal10))
             {
             //NytTal10 = randomNumber( 1, 10 );
