@@ -196,7 +196,8 @@ function MakeRows (){
     PlateLayout();
 }
 
-function PlateLayout (){
+function PlateLayout ()
+{
     console.log(R1);
     let count = 0;
     var layoutR1 = [];
@@ -208,9 +209,4 @@ function PlateLayout (){
         console.table(layoutR1);
         console.log(count);
     }
-    
-
-   
-
-
 }
