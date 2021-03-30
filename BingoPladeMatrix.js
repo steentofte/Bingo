@@ -69,7 +69,7 @@ function GenererPlade(){
 
     for (y = 0; y < R1; y++){
         NytTal10 = randomNumber( 1, 3 );
-        if (PladeNy.includes(NytTal10)==true)
+        if (PladeNy.includes(NytTal10))
             {
             //NytTal10 = randomNumber( 1, 10 );
                console.log(NytTal10);
