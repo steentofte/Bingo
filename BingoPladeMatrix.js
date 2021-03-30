@@ -152,7 +152,7 @@ function GenererPlade(){
             NytTal90 = randomNumber( 81, 90 );
                console.log(NytTal90);
             }
-        PladeNy.push [9,NytTal90);
+        PladeNy.push (9,NytTal90);
         }    
 
     console.table(PladeNy);
