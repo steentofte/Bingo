@@ -73,7 +73,7 @@ function GenererPlade(){
             NytTal10 = randomNumber( 1, 10 );
                console.log(NytTal10);
             }
-        PladeNy[0][NytTal10];
+        PladeNy.push (1,NytTal10);
         }    
 
     for (x = 0; x < R2; x++){
@@ -155,7 +155,7 @@ function GenererPlade(){
         PladeNy.push ([9],[NytTal90]);
         }    
 
-    console.log(PladeNy);
+    console.table(PladeNy);
     MakeRows();    
     }
 
