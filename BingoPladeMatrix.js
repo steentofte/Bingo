@@ -73,6 +73,7 @@ function GenererPlade(){
             {
             //NytTal10 = randomNumber( 1, 10 );
                console.log(NytTal10);
+               console.log("fuck")
             }
         PladeNy.push ([1,NytTal10]);
         }    
