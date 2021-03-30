@@ -207,7 +207,7 @@ function PlateLayout (){
             count = layout.filter(Boolean).length;
             console.log(count);
         }
-    }
+    //}
 
     //for (x = 0; x < R2; x++){
     //    var randomBoolean = Math.random() < 0.5;
