@@ -97,11 +97,7 @@ function GenererPlade(){
             tal2=NytTal10;
             console.log(tal2);
         }
-    
-    for (x = 0; x < ; x++){
 
-
-    }
 
 /*
     for (x = 0; x < R2; x++){
