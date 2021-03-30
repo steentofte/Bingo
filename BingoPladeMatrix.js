@@ -22,6 +22,21 @@ var R7 = 1;
 var R8 = 1;
 var R9 = 1;
 var layout = [];
+var tal1;
+var tal2;
+var tal3;
+var tal4;
+var tal5;
+var tal6;
+var tal7;
+var tal8;
+var tal9;
+var tal10;
+var tal11;
+var tal12;
+var tal13;
+var tal14;
+var tal15;
 
 function randomNumber(minimum, maximum){
     return Math.round( Math.random() * (maximum - minimum) + minimum);
@@ -66,20 +81,21 @@ function GenererPlade(){
     var NytTal80 = randomNumber( 71, 80 );
     var NytTal90 = randomNumber( 81, 90 );
 
-    for (y = 0; y < R1; y++){
-        NytTal10 = randomNumber( 1, 3 );
-        console.log(PladeNy;
-        console.log(NytTal10);
-        var n = PladeNy.values(NytTal10);
-        console.log(n);
-        if (PladeNy.includes(NytTal10))
-            {
-            //NytTal10 = randomNumber( 1, 10 );
-               console.log(NytTal10);
-               console.log("fuck")
-            }
-        PladeNy.push ([NytTal10]);
-        }    
+    tal1 = NytTal10;
+    console.log(tal1);
+
+    if (R1 = 2)
+        {
+            NytTal10 = randomNumber( 1, 10 );
+                while (Nyttal10 == tal1)
+                    {
+                        NytTal10 = randomNumber( 1, 10 );
+                    }
+            tal2=NytTal10;
+            console.log(tal2);
+        }
+    
+
 /*
     for (x = 0; x < R2; x++){
         NytTal20 = randomNumber( 11, 20 );
