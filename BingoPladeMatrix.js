@@ -86,7 +86,7 @@ function GenererPlade(){
 
 for (x = 0; x < 9; x++){
     for (y=0; y < RTotal[x]; y++){
-        var NewNumber = randomNumber (x*10+1), x*10+10);
+        var NewNumber = randomNumber (x*10+1), (x*10+10);
         PladeNy.push (NewNumber);
         console.log(PladeNy);
     }
