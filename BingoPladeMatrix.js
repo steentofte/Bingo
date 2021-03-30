@@ -68,7 +68,7 @@ function GenererPlade(){
 
     for (y = 0; y < R1; y++){
         NytTal10 = randomNumber( 1, 3 );
-        console.log(PladeNy.values);
+        console.log(PladeNy.valuesOf());
         console.log(NytTal10);
         var n = PladeNy.includes(NytTal10);
         console.log(n);
