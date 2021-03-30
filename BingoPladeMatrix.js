@@ -21,6 +21,7 @@ var R6 = 1;
 var R7 = 1;
 var R8 = 1;
 var R9 = 1;
+var RTotal = [];
 var layout = [];
 var tal1;
 var tal2;
@@ -67,6 +68,8 @@ function BingoMatrix(){
         R9 = randomNumber( MinLinje, MaxLinje );
     TotalN = R1+R2+R3+R4+R5+R6+R7+R8+R9;
         }
+        RTotal.push(R1,R2,R3,R4,R5,R6,R7,R8,R9);
+        console.log (RTotal);
     GenererPlade();   
 }
 
@@ -95,6 +98,10 @@ function GenererPlade(){
             console.log(tal2);
         }
     
+    for (x = 0; x < ; x++){
+
+
+    }
 
 /*
     for (x = 0; x < R2; x++){
