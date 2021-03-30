@@ -198,8 +198,8 @@ function MakeRows (){
 
 function PlateLayout (){
     console.log(R1);
-    const count;{
-    while (count != R1)}
+    const count;
+    while (count != R1){
         for (x = 0; x < MaxLinje; x++){
             var randomBoolean = Math.random() < 0.5;
             layout.push ([randomBoolean]);
