@@ -102,14 +102,14 @@ for (x = 0; x < 9; x++){
 */        
 function MakeRows (){
     for (x = 0; x < 9; x++){
-        //for (y=0; y < RTotal[x]; y++){
+        for (y=0; y < RTotal[x]; y++){
             const randA = Math.random() < 0.5;
             const randB = Math.random() < 0.5;
             const randC = Math.random() < 0.5;
-            var kolonne = [randA];
+            var kolonne = [randA, randB];
             const count = kolonne.filter(Boolean).length;
             console.log(kolonne, count);
-
+        }
             //while (PladeNy.includes(NewNumber)){
                 
 
