@@ -203,3 +203,4 @@ function PlateLayout (){
         layout.push ([randomBoolean]);
         console.table (layout);
     }
+}
