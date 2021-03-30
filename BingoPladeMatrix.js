@@ -198,14 +198,15 @@ function MakeRows (){
 
 function PlateLayout (){
     console.log(R1);
-    
-    //while ()
-    for (x = 0; x < R1; x++){
-        var randomBoolean = Math.random() < 0.5;
-        layout.push ([randomBoolean]);
-        console.table (layout);
-        const count = layout.filter(Boolean).length;
-        console.log(count);
+    const count;{
+    while (count != R1)}
+        for (x = 0; x < MaxLinje; x++){
+            var randomBoolean = Math.random() < 0.5;
+            layout.push ([randomBoolean]);
+            console.table (layout);
+            count = layout.filter(Boolean).length;
+            console.log(count);
+        }
     }
 
     //for (x = 0; x < R2; x++){
