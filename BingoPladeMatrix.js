@@ -184,7 +184,7 @@ function GenererPlade(){
         
 function MakeRows (){
     const PladeNyR1 = PladeNy;
-    for (x = 0; x < Raekke; x++){
+    //for (x = 0; x < Raekke; x++){
     const random = Math.floor(Math.random() * PladeNyR1.length | 0);
     console.log(random, PladeNyR1[random]);
     PickRowNumber = PladeNyR1[random];
@@ -192,21 +192,13 @@ function MakeRows (){
     console.log(PladeNyR1);
     Row1.push (PickRowNumber);
     console.log(Row1);
-    }
+   // }
     PlateLayout();
 }
 
 function PlateLayout ()
 {
-    console.log(R1);
-    let count = 0;
-    var layoutR1 = [];
 
-    while (count !== R1){
-        var randomBoolean = Math.random() < 0.5;
-        layoutR1.push ([randomBoolean]);
-        layoutR1.forEach(v => v ? count++ : v);
-        console.table(layoutR1);
-        console.log(count);
-    }
+
+
 }
