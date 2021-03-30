@@ -84,7 +84,7 @@ function GenererPlade(){
     var NytTal80 = randomNumber( 71, 80 );
     var NytTal90 = randomNumber( 81, 90 );
 
-for (x = 0; x < RTotal[x]; x++){}
+for (x = 0; x < RTotal[x]; x++){
     console.log(x,"*");
 }
     /*tal1 = NytTal10;
