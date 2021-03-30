@@ -192,8 +192,8 @@ function MakeRows (){
     console.log(PladeNyR1);
     Row1.push (PickRowNumber);
     console.log(Row1);
-    PlateLayout();
     }
+    PlateLayout();
 }
 
 function PlateLayout (){
