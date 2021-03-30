@@ -107,7 +107,9 @@ function MakeRows (){
             const randB = Math.random() < 0.5;
             const randC = Math.random() < 0.5;
             var kolonne = [randA];
-            console.log(kolonne);
+            const count = kolonne.filter(Boolean).length;
+            console.log(kolonne, count);
+
             //while (PladeNy.includes(NewNumber)){
                 
 
