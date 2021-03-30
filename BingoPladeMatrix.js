@@ -199,13 +199,13 @@ function MakeRows (){
 function PlateLayout (){
     console.log(R1);
     var count = 0;
-    var LayoutR1 = [];
+    var layoutR1 = [];
 
     while (count !== R1){
         var randomBoolean = Math.random() < 0.5;
         layoutR1.push ([randomBoolean]);
         count = layoutR1.filter(Boolean).length;
-        console.table (layoutR1);
+        console.table(layoutR1);
         console.log(count);
     }
 
