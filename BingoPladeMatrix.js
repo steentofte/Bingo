@@ -199,20 +199,14 @@ function MakeRows (){
 function PlateLayout (){
     console.log(R1);
     var count = 0;
-   // while (count !== R1){
-        for (x = 0; x < MaxLinje; x++){
-            var randomBoolean = Math.random() < 0.5;
-            layout.push ([randomBoolean]);
-            console.table (layout);
-            count = layout.filter(Boolean).length;
-            console.log(count);
-        }
-    //}
+    var LayoutR1 = [];
 
-    //for (x = 0; x < R2; x++){
-    //    var randomBoolean = Math.random() < 0.5;
-    //    layout.push ([randomBoolean]);
-    //    console.table (layout);
-    //}
+    while (count !== R1){
+        var randomBoolean = Math.random() < 0.5;
+        layoutR1.push ([randomBoolean]);
+        count = layoutR1.filter(Boolean).length;
+        console.table (layoutR1);
+        console.log(count);
+    }
 
 }
