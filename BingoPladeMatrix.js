@@ -21,6 +21,7 @@ var R6 = 1;
 var R7 = 1;
 var R8 = 1;
 var R9 = 1;
+var Placering = [];
 var RTotal = [];
 var layout = [];
 var tal1;
@@ -87,8 +88,7 @@ for (x = 0; x < 9; x++){
     MakeRows();    
     }
 
-    function GenererBingoNumrer (){
-               
+ /*   function GenererBingoNumrer (){      
                     CurrentTal = NytTal;
                     console.log (NytTal);
                     UdtrukneTal.push (NytTal);
@@ -99,9 +99,19 @@ for (x = 0; x < 9; x++){
                     cell1.innerHTML = NytTal;
                     showNytTal();
                 }
-        
+*/        
 function MakeRows (){
-    
+    for (x = 0; x < 9; x++){
+        //for (y=0; y < RTotal[x]; y++){
+            const randA = Math.random() < 0.5;
+            const randB = Math.random() < 0.5;
+            const randC = Math.random() < 0.5;
+            var kolonne = [randA, randB, randC];
+            console.log = kolonne.includes();
+            //while (PladeNy.includes(NewNumber)){
+                
+
+        }
 
 
     /*//for (x = 0; x < Raekke; x++){
