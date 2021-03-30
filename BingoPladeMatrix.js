@@ -21,6 +21,7 @@ var R6 = 1;
 var R7 = 1;
 var R8 = 1;
 var R9 = 1;
+var layout [];
 
 function randomNumber(minimum, maximum){
     return Math.round( Math.random() * (maximum - minimum) + minimum);
@@ -184,7 +185,6 @@ function GenererPlade(){
 function MakeRows (){
     const PladeNyR1 = PladeNy;
     for (x = 0; x < Raekke; x++){
-    [].filter (PladeNyR1 => PladeNyR1);
     const random = Math.floor(Math.random() * PladeNyR1.length | 0);
     console.log(random, PladeNyR1[random]);
     PickRowNumber = PladeNyR1[random];
@@ -192,7 +192,16 @@ function MakeRows (){
     console.log(PladeNyR1);
     Row1.push (PickRowNumber);
     console.log(Row1);
+    PlateLayout();
     }
+}
+
+function PlateLayout (){
+    for (x = 0; x < R1; x++){
+        var randomBoolean = Math.random() < 0.5;
+        layout.push ([x, randomBoolean]);
+        console.table (layout);
+
 }
 
     
