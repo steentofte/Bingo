@@ -198,11 +198,8 @@ function MakeRows (){
 
 function PlateLayout (){
     console.log(R1);
-    //for (x = 0; x < R1; x++){
+    for (x = 0; x < R1; x++){
         var randomBoolean = Math.random() < 0.5;
         layout.push ([randomBoolean]);
         console.table (layout);
     }
-
-
-    
