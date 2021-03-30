@@ -83,7 +83,7 @@ function GenererPlade(){
             NytTal20 = randomNumber( 11, 20 );
                console.log(NytTal20);
             }
-        PladeNy.push ([2],[NytTal20]);
+        PladeNy.push (2,NytTal20);
         }    
     for (x = 0; x < R3; x++){
         NytTal30 = randomNumber( 21, 30 );
@@ -92,7 +92,7 @@ function GenererPlade(){
             NytTal30 = randomNumber( 21, 30 );
                console.log(NytTal30);
             }
-        PladeNy.push ([3],[NytTal30]);
+        PladeNy.push (3,NytTal30);
         }    
 
     for (x = 0; x < R4; x++){
@@ -102,7 +102,7 @@ function GenererPlade(){
             NytTal40 = randomNumber( 31, 40 );
                console.log(NytTal40);
             }
-        PladeNy.push ([4],[NytTal40]);
+        PladeNy.push (4,NytTal40];
         }   
 
     for (x = 0; x < R5; x++){
@@ -112,7 +112,7 @@ function GenererPlade(){
             NytTal50 = randomNumber( 41, 50 );
                console.log(NytTal50);
             }
-        PladeNy.push ([5],[NytTal50]);
+        PladeNy.push (5,NytTal50);
         }
 
     for (x = 0; x < R6; x++){
@@ -122,7 +122,7 @@ function GenererPlade(){
             NytTal60 = randomNumber( 51, 60 );
                console.log(NytTal60);
             }
-        PladeNy.push ([6],[NytTal60]);
+        PladeNy.push (6,NytTal60);
         }    
 
     for (x = 0; x < R7; x++){
@@ -132,7 +132,7 @@ function GenererPlade(){
             NytTal70 = randomNumber( 61, 70 );
                console.log(NytTal70);
             }
-        PladeNy.push ([7],[NytTal70]);
+        PladeNy.push (7,NytTal70);
         }    
             
     for (x = 0; x < R8; x++){
@@ -142,7 +142,7 @@ function GenererPlade(){
             NytTal80 = randomNumber( 71, 80 );
                console.log(NytTal80);
             }
-        PladeNy.push ([8],[NytTal80]);
+        PladeNy.push (8,NytTal80);
         }        
 
     for (x = 0; x < R9; x++){
@@ -152,7 +152,7 @@ function GenererPlade(){
             NytTal90 = randomNumber( 81, 90 );
                console.log(NytTal90);
             }
-        PladeNy.push ([9],[NytTal90]);
+        PladeNy.push [9,NytTal90);
         }    
 
     console.table(PladeNy);
