@@ -117,13 +117,16 @@ function RandomRow (){
 }
 //
 function MakeRows (){
-    for (x = 0; x < 9; x++){
+    for (x = 1; x < 10; x++){
         var kolonnecount = RandomRow();
         console.log(kolonnecount);
-        while (kolonnecount !== R1){
+        var DynString = "R"+x;
+        console.log(DynString);
+        while (kolonnecount !== DynString){
             kolonnecount = RandomRow();
         }
         Placering.push(kolonne);
+
     console.log(Placering);
     }     
         //while (PladeNy.includes(NewNumber)){
