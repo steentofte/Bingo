@@ -110,7 +110,7 @@ function RandomRow (){
         const randC = Math.random() < 0.5;
         kolonne = [randA, randB, randC];
         const count = kolonne.filter(Boolean).length;
-        console.log(kolonne, count);
+        //console.log(kolonne, count);
     }
     return count;
 }
