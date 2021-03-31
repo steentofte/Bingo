@@ -103,7 +103,7 @@ for (x = 0; x < 9; x++){
 */        
 function RandomRow (){
     kolonne = [];
-    const count;
+    const count = 0;
     console.log (kolonne);
     for (y=0; y < RTotal[x]; y++){
         const randA = Math.random() < 0.5;
