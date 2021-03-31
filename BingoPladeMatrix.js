@@ -113,75 +113,58 @@ function RandomRow (){
 }
 //
 function MakeRows (){
-    //for (x = 1; x < 10; x++){
-        var kolonnecount = RandomRow();
-        console.log(R1);
-        while (kolonnecount !== R1){
-            kolonnecount = RandomRow();
-        }
-        Placering.push(kolonne);
-        while (kolonnecount !== R2){
-            kolonnecount = RandomRow();
-        }
-        Placering.push(kolonne);
-        kolonnecount = RandomRow();
-        while (kolonnecount !== R3){
-            kolonnecount = RandomRow();
-        }
-        Placering.push(kolonne);
-        console.log("funk 2");
-        kolonnecount = RandomRow();
-        while (kolonnecount !== R4){
-            kolonnecount = RandomRow();
-        }
-        Placering.push(kolonne);
-        console.log("funk 3");
-        kolonnecount = RandomRow();
-        while (kolonnecount !== R5){
-            kolonnecount = RandomRow();
-        }
-        Placering.push(kolonne);
-        kolonnecount = RandomRow();
-        while (kolonnecount !== R6){
-            kolonnecount = RandomRow();
-        }
-        Placering.push(kolonne);
-        kolonnecount = RandomRow();
-        while (kolonnecount !== R7){
-            kolonnecount = RandomRow();
-        }
-        Placering.push(kolonne);
-        kolonnecount = RandomRow();
-        while (kolonnecount !== R8){
-            kolonnecount = RandomRow();
-        }
-        Placering.push(kolonne);
-        kolonnecount = RandomRow();
-        while (kolonnecount !== R9){
-            kolonnecount = RandomRow();
-        }
-        Placering.push(kolonne);
-        
-    console.log(Placering);
-   // }     
-        //while (PladeNy.includes(NewNumber)){
-
-    /*//for (x = 0; x < Raekke; x++){
-    const random = Math.floor(Math.random() * PladeNyR1.length | 0);
-    //console.log(random, PladeNyR1[random]);
-    PickRowNumber = PladeNyR1[random];
-    delete PladeNyR1[random];
-    //console.log(PladeNyR1);
-    Row1.push (PickRowNumber);
-    //console.log(Row1);
-   // }
-   */
+    
     PlateLayout();
 }
 
-function PlateLayout ()
-{
-
-
-
+function PlateLayout (){
+    var kolonnecount = RandomRow();
+    console.log(R1);
+    while (kolonnecount !== R1){
+        kolonnecount = RandomRow();
+    }
+    Placering.push(kolonne);
+    while (kolonnecount !== R2){
+        kolonnecount = RandomRow();
+    }
+    Placering.push(kolonne);
+    kolonnecount = RandomRow();
+    while (kolonnecount !== R3){
+        kolonnecount = RandomRow();
+    }
+    Placering.push(kolonne);
+    console.log("funk 2");
+    kolonnecount = RandomRow();
+    while (kolonnecount !== R4){
+        kolonnecount = RandomRow();
+    }
+    Placering.push(kolonne);
+    console.log("funk 3");
+    kolonnecount = RandomRow();
+    while (kolonnecount !== R5){
+        kolonnecount = RandomRow();
+    }
+    Placering.push(kolonne);
+    kolonnecount = RandomRow();
+    while (kolonnecount !== R6){
+        kolonnecount = RandomRow();
+    }
+    Placering.push(kolonne);
+    kolonnecount = RandomRow();
+    while (kolonnecount !== R7){
+        kolonnecount = RandomRow();
+    }
+    Placering.push(kolonne);
+    kolonnecount = RandomRow();
+    while (kolonnecount !== R8){
+        kolonnecount = RandomRow();
+    }
+    Placering.push(kolonne);
+    kolonnecount = RandomRow();
+    while (kolonnecount !== R9){
+        kolonnecount = RandomRow();
+    }
+    Placering.push(kolonne);
+    
+console.log(Placering);
 }
