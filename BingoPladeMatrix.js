@@ -123,35 +123,43 @@ function MakeRows (){
         while (kolonnecount !== R1){
             kolonnecount = RandomRow();
         }
+        kolonnecount = RandomRow();
         Placering.push(kolonne);
         while (kolonnecount !== R2){
             kolonnecount = RandomRow();
         }
         Placering.push(kolonne);
+        kolonnecount = RandomRow();
         while (kolonnecount !== R3){
             kolonnecount = RandomRow();
         }
         Placering.push(kolonne);
+        kolonnecount = RandomRow();
         while (kolonnecount !== R4){
             kolonnecount = RandomRow();
         }
         Placering.push(kolonne);
+        kolonnecount = RandomRow();
         while (kolonnecount !== R5){
             kolonnecount = RandomRow();
         }
         Placering.push(kolonne);
+        kolonnecount = RandomRow();
         while (kolonnecount !== R6){
             kolonnecount = RandomRow();
         }
         Placering.push(kolonne);
+        kolonnecount = RandomRow();
         while (kolonnecount !== R7){
             kolonnecount = RandomRow();
         }
         Placering.push(kolonne);
+        kolonnecount = RandomRow();
         while (kolonnecount !== R8){
             kolonnecount = RandomRow();
         }
         Placering.push(kolonne);
+        kolonnecount = RandomRow();
         while (kolonnecount !== R9){
             kolonnecount = RandomRow();
         }
