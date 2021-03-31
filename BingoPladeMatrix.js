@@ -103,13 +103,14 @@ for (x = 0; x < 9; x++){
 */        
 function RandomRow (){
     kolonne = [];
+    const count;
     console.log (kolonne);
     for (y=0; y < RTotal[x]; y++){
         const randA = Math.random() < 0.5;
         const randB = Math.random() < 0.5;
         const randC = Math.random() < 0.5;
         kolonne = [randA, randB, randC];
-        const count = kolonne.filter(Boolean).length;
+        count = kolonne.filter(Boolean).length;
         //console.log(kolonne, count);
     }
     return count;
