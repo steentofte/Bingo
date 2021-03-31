@@ -120,10 +120,11 @@ function MakeRows (){
         console.log(kolonnecount);
         while (kolonnecount !== R1){
             kolonnecount = RandomRow();
+            console.log ("blah");
         }
         Placering.push(kolonne);
         console.log("funk 1");
-        while (kolonnecount !== R2){
+        /*while (kolonnecount !== R2){
             kolonnecount = RandomRow();
         }
         Placering.push(kolonne);
@@ -164,6 +165,7 @@ function MakeRows (){
             kolonnecount = RandomRow();
         }
         Placering.push(kolonne);
+        */
     console.log(Placering);
    // }     
         //while (PladeNy.includes(NewNumber)){
