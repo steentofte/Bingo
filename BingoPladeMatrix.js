@@ -117,10 +117,10 @@ function RandomRow (){
 function MakeRows (){
     //for (x = 1; x < 10; x++){
         var kolonnecount = RandomRow();
-        console.log(kolonnecount);
+        console.log(R1);
         while (kolonnecount !== R1){
             kolonnecount = RandomRow();
-            console.log ("blah");
+            console.log (kolonnecount);
         }
         Placering.push(kolonne);
         console.log("funk 1");
