@@ -104,13 +104,11 @@ for (x = 0; x < 9; x++){
 function RandomRow (){
     kolonne = [];
     var count = 0;
-    for (y=0; y < RTotal[x]; y++){
-        const randA = Math.random() < 0.5;
-        const randB = Math.random() < 0.5;
-        const randC = Math.random() < 0.5;
-        kolonne = [randA, randB, randC];
-        count = kolonne.filter(Boolean).length;
-    }
+    const randA = Math.random() < 0.5;
+    const randB = Math.random() < 0.5;
+    const randC = Math.random() < 0.5;
+    kolonne = [randA, randB, randC];
+    count = kolonne.filter(Boolean).length;
     return count;
 }
 //
