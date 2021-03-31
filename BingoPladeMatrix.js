@@ -127,9 +127,6 @@ function MakeRows (){
     }     
         //while (PladeNy.includes(NewNumber)){
 
-                }
-
-
     /*//for (x = 0; x < Raekke; x++){
     const random = Math.floor(Math.random() * PladeNyR1.length | 0);
     //console.log(random, PladeNyR1[random]);
