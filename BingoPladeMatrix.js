@@ -157,7 +157,7 @@ function MakeRows (){
         }
         Placering.push(kolonne);
     console.log(Placering);
-    }     
+   // }     
         //while (PladeNy.includes(NewNumber)){
 
     /*//for (x = 0; x < Raekke; x++){
