@@ -39,6 +39,7 @@ var tal12;
 var tal13;
 var tal14;
 var tal15;
+var kolonne = [];
 
 function randomNumber(minimum, maximum){
     return Math.round( Math.random() * (maximum - minimum) + minimum);
@@ -107,7 +108,7 @@ function RandomRow (){
         const randA = Math.random() < 0.5;
         const randB = Math.random() < 0.5;
         const randC = Math.random() < 0.5;
-        var kolonne = [randA, randB, randC];
+        kolonne = [randA, randB, randC];
         const count = kolonne.filter(Boolean).length;
         console.log(kolonne, count);
     }
@@ -120,7 +121,7 @@ function MakeRows (){
         While (kolonnecount !== R1){
             kolonnecount = RandomRow();
         }
-        Placering.push(kolonnecount);
+        Placering.push(kolonne);
     console.log(Placering);
     }     
         //while (PladeNy.includes(NewNumber)){
