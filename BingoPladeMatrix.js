@@ -104,14 +104,12 @@ for (x = 0; x < 9; x++){
 function RandomRow (){
     kolonne = [];
     var count = 0;
-    console.log (kolonne);
     for (y=0; y < RTotal[x]; y++){
         const randA = Math.random() < 0.5;
         const randB = Math.random() < 0.5;
         const randC = Math.random() < 0.5;
         kolonne = [randA, randB, randC];
         count = kolonne.filter(Boolean).length;
-        //console.log(kolonne, count);
     }
     return count;
 }
@@ -123,8 +121,8 @@ function MakeRows (){
         while (kolonnecount !== R1){
             kolonnecount = RandomRow();
         }
-        kolonnecount = RandomRow();
         Placering.push(kolonne);
+        console.log("funk 1");
         while (kolonnecount !== R2){
             kolonnecount = RandomRow();
         }
@@ -134,11 +132,13 @@ function MakeRows (){
             kolonnecount = RandomRow();
         }
         Placering.push(kolonne);
+        console.log("funk 2");
         kolonnecount = RandomRow();
         while (kolonnecount !== R4){
             kolonnecount = RandomRow();
         }
         Placering.push(kolonne);
+        console.log("funk 3");
         kolonnecount = RandomRow();
         while (kolonnecount !== R5){
             kolonnecount = RandomRow();
