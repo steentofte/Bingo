@@ -117,16 +117,45 @@ function RandomRow (){
 }
 //
 function MakeRows (){
-    for (x = 1; x < 10; x++){
+    //for (x = 1; x < 10; x++){
         var kolonnecount = RandomRow();
         console.log(kolonnecount);
-        var DynString = "R"+x;
-        console.log(DynString);
-        while (kolonnecount !== DynString){
+        while (kolonnecount !== R1){
             kolonnecount = RandomRow();
         }
         Placering.push(kolonne);
-
+        while (kolonnecount !== R2){
+            kolonnecount = RandomRow();
+        }
+        Placering.push(kolonne);
+        while (kolonnecount !== R3){
+            kolonnecount = RandomRow();
+        }
+        Placering.push(kolonne);
+        while (kolonnecount !== R4){
+            kolonnecount = RandomRow();
+        }
+        Placering.push(kolonne);
+        while (kolonnecount !== R5){
+            kolonnecount = RandomRow();
+        }
+        Placering.push(kolonne);
+        while (kolonnecount !== R6){
+            kolonnecount = RandomRow();
+        }
+        Placering.push(kolonne);
+        while (kolonnecount !== R7){
+            kolonnecount = RandomRow();
+        }
+        Placering.push(kolonne);
+        while (kolonnecount !== R8){
+            kolonnecount = RandomRow();
+        }
+        Placering.push(kolonne);
+        while (kolonnecount !== R9){
+            kolonnecount = RandomRow();
+        }
+        Placering.push(kolonne);
     console.log(Placering);
     }     
         //while (PladeNy.includes(NewNumber)){
