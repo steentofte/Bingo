@@ -118,6 +118,7 @@ function RandomRow (){
 function MakeRows (){
     for (x = 0; x < 9; x++){
         var kolonnecount = RandomRow();
+        console.log(kolonnecount);
         While (kolonnecount !== R1){
             kolonnecount = RandomRow();
         }
