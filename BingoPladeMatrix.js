@@ -100,20 +100,32 @@ for (x = 0; x < 9; x++){
                     showNytTal();
                 }
 */        
+function RandomRow (){
+    kolonne = [];
+    console.log (kolonne);
+    for (y=0; y < RTotal[x]; y++){
+        const randA = Math.random() < 0.5;
+        const randB = Math.random() < 0.5;
+        const randC = Math.random() < 0.5;
+        var kolonne = [randA, randB, randC];
+        const count = kolonne.filter(Boolean).length;
+        console.log(kolonne, count);
+    }
+    return count;
+}
+
 function MakeRows (){
     for (x = 0; x < 9; x++){
-        for (y=0; y < RTotal[x]; y++){
-            const randA = Math.random() < 0.5;
-            const randB = Math.random() < 0.5;
-            const randC = Math.random() < 0.5;
-            var kolonne = [randA, randB, randC];
-            const count = kolonne.filter(Boolean).length;
-            console.log(kolonne, count);
+        var kolonnecount = RandomRow();
+        While (kolonnecount !== R1){
+            kolonnecount = RandomRow();
         }
-            //while (PladeNy.includes(NewNumber)){
-                
+        Placering.push(kolonnecount);
+    console.log(Placering);
+    }     
+        //while (PladeNy.includes(NewNumber)){
 
-        }
+                }
 
 
     /*//for (x = 0; x < Raekke; x++){
