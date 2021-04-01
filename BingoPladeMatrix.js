@@ -169,3 +169,7 @@ function PlateLayout (){
     
 console.log(Placering);
 }
+
+function Fake() {
+    document.getElementById('Fake').textContent = FakeTal;
+}
