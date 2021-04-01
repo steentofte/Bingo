@@ -152,7 +152,9 @@ function PlateLayout (){
     
 
 console.table(Placering);
-Row1.push(Placering[0][0],Placering[1][0],Placering[2][0]);
+for (x = 0; x < 9; x++){
+    Row1.push(Placering[x][0]);
+    }
 console.log(Row1);
 
 
