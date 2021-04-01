@@ -171,5 +171,5 @@ console.log(Placering);
 }
 
 function Fake() {
-    document.getElementById('Fake').textContent = FakeTal;
+    document.getElementById('Fake').textContent = "FakeTal";
 }
