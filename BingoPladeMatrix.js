@@ -104,6 +104,18 @@ function MakeRows (){
 }
 
 function PlateLayout (){
+
+    var countR1=0;
+    var countR2=0;
+    var countR3=0;
+
+    while (countR1 !== Raekke)
+    {
+    countR1 = 0;
+    countR2 = 0;
+    countR3 = 0;
+    kolonne = [];
+      
     var kolonnecount = RandomRow();
     console.log(R1);
     while (kolonnecount !== R1){
@@ -152,9 +164,7 @@ function PlateLayout (){
     
 
 console.table(Placering);
-var countR1=0;
-var countR2=0;
-var countR3=0;
+
 for (x = 0; x < 9; x++){
     Row1.push(Placering[x][0]);
     }
@@ -167,6 +177,8 @@ for (x = 0; x < 9; x++){
         Row3.push(Placering[x][2]);
     }
 countR3 = Row3.filter(Boolean).length;
+
+    }
 
 console.log (countR1,countR2,countR3);
 console.log(Row1,Row2,Row3);
