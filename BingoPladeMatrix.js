@@ -24,21 +24,6 @@ var R9 = 1;
 var Placering = [];
 var RTotal = [];
 var layout = [];
-var tal1;
-var tal2;
-var tal3;
-var tal4;
-var tal5;
-var tal6;
-var tal7;
-var tal8;
-var tal9;
-var tal10;
-var tal11;
-var tal12;
-var tal13;
-var tal14;
-var tal15;
 var kolonne = [];
 var FakeTal = [[true,1],[false,2],[true,3]];
 
@@ -134,13 +119,11 @@ function PlateLayout (){
         kolonnecount = RandomRow();
     }
     Placering.push(kolonne);
-    console.log("funk 2");
     kolonnecount = RandomRow();
     while (kolonnecount !== R4){
         kolonnecount = RandomRow();
     }
     Placering.push(kolonne);
-    console.log("funk 3");
     kolonnecount = RandomRow();
     while (kolonnecount !== R5){
         kolonnecount = RandomRow();
@@ -167,6 +150,7 @@ function PlateLayout (){
     }
     Placering.push(kolonne);
     
+
 console.log(Placering);
 }
 
