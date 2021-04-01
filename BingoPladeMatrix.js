@@ -40,6 +40,7 @@ var tal13;
 var tal14;
 var tal15;
 var kolonne = [];
+var FakeTal = [1,2,3];
 
 function randomNumber(minimum, maximum){
     return Math.round( Math.random() * (maximum - minimum) + minimum);
