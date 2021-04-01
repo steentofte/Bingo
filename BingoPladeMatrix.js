@@ -172,5 +172,5 @@ console.log(Placering);
 
 function Fake() {
     document.getElementById('Fake').innerHTML = FakeTal;
-    console.log(FakeTal);
+    console.table(FakeTal);
 }
