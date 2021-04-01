@@ -1,3 +1,3 @@
-function showNytTal() {
+function Fake() {
     document.getElementById('Fake').textContent = FakeTal;
 }
