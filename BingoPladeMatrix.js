@@ -152,7 +152,7 @@ function PlateLayout (){
     
 
 console.table(Placering);
-Placering[0,0],[1,0],[2,0],[3,0],[4,0],[5,0],[6,0],[7,0],[8,0].push(Row1);
+Row1.push(Placering[0,0],[1,0],[2,0],[3,0],[4,0],[5,0],[6,0],[7,0],[8,0]);
 console.log(Row1);
 
 
