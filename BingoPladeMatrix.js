@@ -155,10 +155,15 @@ console.table(Placering);
 for (x = 0; x < 9; x++){
     Row1.push(Placering[x][0]);
     }
-console.log(Row1);
-
-
-
+for (x = 0; x < 9; x++){
+        Row2.push(Placering[x][1]);
+    }
+for (x = 0; x < 9; x++){
+        Row3.push(Placering[x][2]);
+    }
+    
+    
+console.log(Row1,Row2,Row3);
 }
 
 function Fake() {
