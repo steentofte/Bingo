@@ -117,7 +117,8 @@ function PlateLayout (){
     kolonne = [];
     Row1 = [];
     Row2 = [];
-    Row3 = [];  
+    Row3 = [];
+    Placering = [];  
     var kolonnecount = RandomRow();
     console.log(R1);
     while (kolonnecount !== R1){
@@ -164,9 +165,7 @@ function PlateLayout (){
     }
     Placering.push(kolonne);
     
-
 console.table(Placering);
-
 for (x = 0; x < 9; x++){
     Row1.push(Placering[x][0]);
     }
