@@ -187,7 +187,7 @@ VisPlade();
 function VisPlade() {
     var table = document.getElementById("TrykPlade");
     var row = table.insertRow(0);
-    
+    console.log ("visplade")
     for (x = 0; x < 27; x++)
     var y = 0;
         if (layout[x]){
