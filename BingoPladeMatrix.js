@@ -182,6 +182,8 @@ countR3 = Row3.filter(Boolean).length;
 
 console.log (countR1,countR2,countR3);
 console.log(Row1,Row2,Row3);
+layout.push(Row1,Row2,Row3);
+console.table(layout);
 }
 
 function Fake() {
