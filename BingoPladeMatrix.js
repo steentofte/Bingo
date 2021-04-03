@@ -109,7 +109,7 @@ function PlateLayout (){
     var countR2=0;
     var countR3=0;
 
-    while (countR1 !== Raekke && countR2 !== Raekke)
+    while (countR1 !== Raekke && countR2 !== Raekke && countR3 !== Raekke  )
     {
     countR1 = 0;
     countR2 = 0;
