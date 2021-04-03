@@ -181,7 +181,14 @@ layout.push(Row1,Row2,Row3);
 
 console.table(layout);
 console.log (PladeNy);
+VisPlade();
 }
+
+function VisPlade() {
+    var x = document.getElementById("TrykPlade");
+    x =PladeNy;
+  }
+
 
 function Fake() {
     document.getElementById('Fake').innerHTML = FakeTal;
