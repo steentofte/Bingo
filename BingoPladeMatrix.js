@@ -194,8 +194,8 @@ function VisPlade() {
     for (r = 0; r < 8; r++)
         {
         for (col = 0; col < MaxLinje; col++)
-        console.log(layout[r][col]);
-        if (layout[r][col] == true){
+        console.log(layout[col][r]);
+        if (layout[col][r] == true){
             console.log(y);
             var cell1 = row.insertCell(0);
             cell1.innerHTML = "TRUE CELL" + y;
