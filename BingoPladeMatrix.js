@@ -165,7 +165,6 @@ function PlateLayout (){
     }
     Placering.push(kolonne);
     
-console.table(Placering);
 for (x = 0; x < 9; x++){
     Row1.push(Placering[x][0]);
     }
@@ -183,6 +182,16 @@ countR3 = Row3.filter(Boolean).length;
 console.log (countR1,countR2,countR3);
 console.log(Row1,Row2,Row3);
 layout.push(Row1,Row2,Row3);
+
+var y = 0;
+for (x = 0; x < 15; x++){
+    
+    if {layout[x])
+    layout[x],PladeNy[y].push(PladeNy[y]);
+    y++;
+    }
+}
+
 console.table(layout);
 }
 
