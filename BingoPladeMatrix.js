@@ -193,10 +193,12 @@ function VisPlade() {
     var r = 0;
     for (r = 0; r < 9; r++)
         {
-        for (col = 0; col < MaxLinje; col++)
-        console.log(layout[col][r]);
-        console.log(layout[col][r]);
-        console.log(y);
+        for (col = 0; col < MaxLinje; col++){
+            console.log(layout[col][r]);
+            console.log(layout[col][r]);
+            console.log(y);
+        }
+
 
 
                /* console.log(y);
