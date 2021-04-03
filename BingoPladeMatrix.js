@@ -195,12 +195,14 @@ function VisPlade() {
         {
         for (col = 0; col < MaxLinje; col++)
         console.log(layout[col][r]);
-       /* if (layout[col][r]){
+       
+       
+        if (layout[col][r] === true){
             console.log(y);
             var cell1 = row.insertCell(0);
             cell1.innerHTML = "TRUE CELL" + y;
             y++;
-        }      */
+        }     
     }
     }
 
