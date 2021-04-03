@@ -187,7 +187,7 @@ var y = 0;
 for (x = 0; x < 15; x++){
     
     if (layout[x]){
-    layout[x],PladeNy[y].push(PladeNy[y]);
+    layout.splice([x],0,PladeNy[y]);
     y++;
     }
 }
