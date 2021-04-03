@@ -191,6 +191,7 @@ function VisPlade() {
     for (x = 0; x < 27; x++)
     var y = 0;
         if (layout[x]){
+            console.log(y);
             var cell1 = row.insertCell(0);
             cell1.innerHTML = "TRUE CELL" + y;
             y++;
