@@ -57,7 +57,6 @@ function BingoMatrix(){
     TotalN = R1+R2+R3+R4+R5+R6+R7+R8+R9;
         }
         RTotal.push(R1,R2,R3,R4,R5,R6,R7,R8,R9);
-        console.log (RTotal);
     GenererPlade();   
 }
 
@@ -69,7 +68,6 @@ for (x = 0; x < 9; x++){
             var NewNumber = randomNumber (x*10+1, x*10+10);
         }
         PladeNy.push (NewNumber);
-        console.log(PladeNy);
     }
 }
     MakeRows();    
@@ -120,7 +118,7 @@ function PlateLayout (){
     Row3 = [];
     Placering = [];  
     var kolonnecount = RandomRow();
-    console.log(R1);
+    
     while (kolonnecount !== R1){
         kolonnecount = RandomRow();
     }
