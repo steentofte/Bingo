@@ -195,8 +195,7 @@ function VisPlade() {
         {
         for (col = 0; col < MaxLinje; col++)
         console.log(layout[col][r]);
-       
-        y =layout[col][r];
+        y = layout[col][r];
         console.log(y);
 
 
