@@ -203,6 +203,7 @@ function VisPlade() {
                 y++;
 
                 }
+                row = table.insertRow(r);
             }
     }
     }
