@@ -185,9 +185,18 @@ VisPlade();
 }
 
 function VisPlade() {
-    var x = document.getElementById("TrykPlade");
-    x =PladeNy;
-  }
+    var table = document.getElementById("TrykPlade");
+    var row = table.insertRow(0);
+    
+    for (x = 0; x < 27; x++)
+    var y = 0;
+        if (layout[x]){
+            var cell1 = row.insertCell(0);
+            cell1.innerHTML = "TRUE CELL" + y;
+            y++;
+        }      
+  
+    }
 
 
 function Fake() {
