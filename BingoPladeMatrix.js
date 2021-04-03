@@ -188,9 +188,11 @@ function VisPlade() {
     var table = document.getElementById("TrykPlade");
     var row = table.insertRow(0);
     console.log ("visplade")
-    for (x = 0; x < 27; x++)
     var y = 0;
-        if (layout[x]){
+    for (x = 0; x < 27; x++)
+        console.log(layout[x]);
+        if (layout[x] == true){
+            
             console.log(y);
             var cell1 = row.insertCell(0);
             cell1.innerHTML = "TRUE CELL" + y;
