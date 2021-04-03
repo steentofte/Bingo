@@ -189,16 +189,19 @@ function VisPlade() {
     var row = table.insertRow(0);
     console.log ("visplade")
     var y = 0;
-    for (x = 0; x < 27; x++)
-        console.log(layout[x]);
-        if (layout[x] == true){
-            
+    var col = 0;
+    var r = 0;
+    for (r = 0; r < 9; r++)
+        {
+        for (col = 0; col < MaxLinje; col++)
+        console.log(layout[r],[col]);
+        if (layout[r],[col] == true){
             console.log(y);
             var cell1 = row.insertCell(0);
             cell1.innerHTML = "TRUE CELL" + y;
             y++;
         }      
-  
+    }
     }
 
 
