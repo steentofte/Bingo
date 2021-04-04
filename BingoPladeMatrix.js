@@ -180,8 +180,6 @@ countR3 = Row3.filter(Boolean).length;
 
 layout.push(Row1,Row2,Row3);
 
-console.table(layout);
-console.log (PladeNy);
 VisPlade();
 }
 
