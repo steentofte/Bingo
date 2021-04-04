@@ -209,9 +209,6 @@ function VisPlade() {
                 table.appendChild(row);   
             }
     }
-    }
-
-        }
         return table;
     }
 
