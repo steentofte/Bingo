@@ -186,8 +186,11 @@ function VisPlade() {
         }
 
     var table = document.getElementById("TrykPlade");
-    table.removeChild();
-    var taeller = 0;
+    while (table.rows.length > 0)
+    {
+        table.deleteRow(0);
+    }
+        var taeller = 0;
     for (u = 0; u < 3; u++)
     {
         var row = document.createElement('tr');
