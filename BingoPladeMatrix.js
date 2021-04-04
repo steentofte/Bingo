@@ -212,11 +212,11 @@ function VisPlade() {
     var taeller = 0;
     var table = document.getElementById("TrykPlade");
     //var row = table.insertRow(0);
-    for (u = 0; u < MaxLinje; u++)
+    for (u = 0; u < 9; u++)
     {
         var row = document.createElement('tr');
         
-        for (v = 0; v < 9; v++)
+        for (v = 0; v < MaxLinje; v++)
         {
                 var cell = document.createElement('td');    
                 cell.textContent = layoutMedTal[taeller];
