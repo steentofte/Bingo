@@ -201,9 +201,9 @@ function VisPlade() {
                 var cell1 = row.insertCell(0);
                 cell1.innerHTML = "TRUE CELL" + y;
                 y++;
-
-                }
                 row = table.insertRow(r);
+                }
+                
             }
     }
     }
