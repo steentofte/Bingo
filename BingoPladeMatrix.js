@@ -201,11 +201,11 @@ function VisPlade() {
                 
                 cell1.innerHTML = "TRUE CELL" + y;
                 
-                y++;
+                
                 
                 row = table.insertRow(r);
                 }
-                
+                y++;    
             }
     }
     }
