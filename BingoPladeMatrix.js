@@ -199,13 +199,11 @@ function VisPlade() {
                 var cell1 = row.insertCell(0);
                 //console.log(y);
                 
-                cell1.innerHTML = "TRUE CELL" + y;
-                
-                
-                
+                cell1.innerHTML = "TRUE CELL" + PladeNy[y];
+                y++;
                 row = table.insertRow(r);
                 }
-                y++;    
+                   
             }
     }
     }
