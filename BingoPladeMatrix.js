@@ -222,7 +222,7 @@ function VisPlade() {
                 cell.textContent = layoutMedTal[taeller];
                 row.appendChild(cell);
                 //cell1.innerHTML = [y];
-                row = table.insertRow(taeller);
+                //row = table.insertRow(taeller);
                 taeller++;
         }
         table.appendChild(row);  
