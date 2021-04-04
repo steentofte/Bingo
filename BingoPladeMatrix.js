@@ -103,7 +103,6 @@ function MakeRows (){
 }
 
 function PlateLayout (){
-
     var countR1=0;
     var countR2=0;
     var countR3=0;
@@ -186,7 +185,7 @@ VisPlade();
 }
 
 function VisPlade() {
-
+    layoutMedTal = [];
     console.log ("visplade")
     var y = 0;
     var col = 0;
