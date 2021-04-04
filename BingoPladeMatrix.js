@@ -184,7 +184,7 @@ function VisPlade() {
             layoutMedTalOmformat.push (layoutMedTal[(i*3)+2]);
         }
 
-    document.removeChild(document.table);
+    document.write();
     var taeller = 0;
     table = 0;
     for (u = 0; u < 3; u++)
