@@ -186,8 +186,7 @@ VisPlade();
 }
 
 function VisPlade() {
-    //var table = document.getElementById("TrykPlade");
-    //var row = table.insertRow(0);
+
     console.log ("visplade")
     var y = 0;
     var col = 0;
@@ -211,6 +210,8 @@ function VisPlade() {
     console.log(layoutMedTal);    
     //return table;
     var taeller = 0;
+    var table = document.getElementById("TrykPlade");
+    var row = table.insertRow(0);
     for (u = 0; u < MaxLinje; u++)
     {
         var row = document.createElement('tr');
