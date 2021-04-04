@@ -62,6 +62,7 @@ for (x = 0; x < 9; x++){
 function RandomRow (){
     layout = [];
     kolonne = [];
+    Placering = [];
     var count = 0;
     const randA = Math.random() < 0.5;
     const randB = Math.random() < 0.5;
