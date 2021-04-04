@@ -1,13 +1,7 @@
-var rollDie = randomNumber( 1, 90 );
 var MaxNumber = 15;
 var MinLinje = 1;
 var MaxLinje = 3;
-var MaxSpread = 10;
-var StartTal = 1;
-var SlutTal = 90;
 var Raekke = 5;
-var BingoArray = [];
-var BingoPlade = [];
 var PladeNy = [];
 var Row1 = [];
 var Row2 = [];
@@ -27,7 +21,7 @@ var layout = [];
 var kolonne = [];
 var layoutMedTal = [];
 var layoutMedTalOmformat = [];
-var FakeTal = [[true,1],[false,2],[true,3]];
+
 
 function randomNumber(minimum, maximum){
     return Math.round( Math.random() * (maximum - minimum) + minimum);
@@ -163,8 +157,8 @@ VisPlade();
 }
 
 function VisPlade() {
-    layoutMedTal = [];
-    layoutMedTalOmformat = [];
+    layoutMedTal.length = 0;
+    layoutMedTalOmformat.length = 0;
     var y = 0;
     var col = 0;
     var r = 0;
