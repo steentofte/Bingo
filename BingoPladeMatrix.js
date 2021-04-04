@@ -60,6 +60,7 @@ for (x = 0; x < 9; x++){
     MakeRows();    
     }        
 function RandomRow (){
+    layout = [];
     kolonne = [];
     var count = 0;
     const randA = Math.random() < 0.5;
