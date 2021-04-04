@@ -167,7 +167,7 @@ function VisPlade() {
 
                 }
             else {
-            layoutMedTal.push (" ");
+            layoutMedTal.push ("   ");
             }
         }
     }
