@@ -22,16 +22,11 @@ var kolonne = [];
 var layoutMedTal = [];
 var layoutMedTalOmformat = [];
 
-
 function randomNumber(minimum, maximum){
     return Math.round( Math.random() * (maximum - minimum) + minimum);
 }
 
 function NewPlate(){
-    BingoMatrix();
-}
-
-function BingoMatrix(){
     var TotalN = 0;
     while (TotalN !== MaxNumber){
         R1 = randomNumber( MinLinje, MaxLinje );
@@ -71,12 +66,8 @@ function RandomRow (){
     count = kolonne.filter(Boolean).length;
     return count;
 }
-//
-function MakeRows (){
-    PlateLayout();
-}
 
-function PlateLayout (){
+function MakeRows (){
     var countR1=0;
     var countR2=0;
     var countR3=0;
@@ -176,7 +167,7 @@ function VisPlade() {
             }
         }
     }
-    
+    console.log (layoutMedTal);
     var pointer = 0;
     for (i = 0; i < 9; i++)
         {
