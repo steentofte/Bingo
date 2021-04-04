@@ -186,6 +186,7 @@ function VisPlade() {
         }
 
     var table = document.getElementById("TrykPlade");
+    table.removeChild();
     var taeller = 0;
     for (u = 0; u < 3; u++)
     {
