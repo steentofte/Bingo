@@ -190,9 +190,9 @@ function VisPlade() {
     var y = 0;
     var col = 0;
     var r = 0;
-    for (r = 0; r < 3; r++)
+    for (r = 0; r < 9; r++)
         {
-        for (col = 0; col < 9; col++){
+        for (col = 0; col < 3; col++){
             console.log(layout[col][r]);
             if (layout[col][r]){
 
