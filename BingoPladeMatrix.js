@@ -215,10 +215,10 @@ function VisPlade() {
     for (u = 0; u < MaxLinje; u++)
     {
         var row = document.createElement('tr');
-        var cell = document.createElement('td');
+        
         for (v = 0; v < 9; v++)
         {
-                var cell1 = row.insertCell(0);
+                var cell = document.createElement('td');    
                 cell.textContent = layoutMedTal[taeller];
                 row.appendChild(cell);
                 //cell1.innerHTML = [y];
