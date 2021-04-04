@@ -207,21 +207,18 @@ function VisPlade() {
         }
     }
     console.log(layoutMedTal);    
-    //return table;
     var taeller = 0;
     var table = document.getElementById("TrykPlade");
-    //var row = table.insertRow(0);
-    for (u = 0; u < 3; u++)
+
+    for (u = 0; u < 9; u++)
     {
         var row = document.createElement('tr');
         
-        for (v = 0; v < 9; v++)
+        for (v = 0; v < 3; v++)
         {
                 var cell = document.createElement('td');    
                 cell.textContent = layoutMedTal[taeller];
                 row.appendChild(cell);
-                //cell1.innerHTML = [y];
-                //row = table.insertRow(taeller);
                 taeller++;
                 table.appendChild(row); 
         }
