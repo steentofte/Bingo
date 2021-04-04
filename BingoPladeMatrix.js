@@ -34,13 +34,6 @@ function randomNumber(minimum, maximum){
 }
 
 function NewPlate(){
-//  for (i = 1; i < MaxNumber; i++) {
-//        console.log(i)
-//        var PladeNummer = randomNumber( 1, 90 );
-//        console.log(PladeNummer);
-//        BingoArray.push (PladeNummer);
-//       document.getElementById(i).innerHTML = PladeNummer;
-//    }
     BingoMatrix();
 }
 
@@ -73,20 +66,7 @@ for (x = 0; x < 9; x++){
     }
 }
     MakeRows();    
-    }
-
- /*   function GenererBingoNumrer (){      
-                    CurrentTal = NytTal;
-                    console.log (NytTal);
-                    UdtrukneTal.push (NytTal);
-                    console.log (UdtrukneTal);
-                    var table = document.getElementById("MyTable");
-                    var row = table.insertRow(0);
-                    var cell1 = row.insertCell(0);
-                    cell1.innerHTML = NytTal;
-                    showNytTal();
-                }
-*/        
+    }        
 function RandomRow (){
     kolonne = [];
     var count = 0;
@@ -99,7 +79,6 @@ function RandomRow (){
 }
 //
 function MakeRows (){
-    
     PlateLayout();
 }
 
@@ -185,14 +164,12 @@ VisPlade();
 
 function VisPlade() {
     layoutMedTal = [];
-    console.log ("visplade")
     var y = 0;
     var col = 0;
     var r = 0;
     for (r = 0; r < 9; r++)
         {
         for (col = 0; col < 3; col++){
-            console.log(layout[col][r]);
             if (layout[col][r]){
 
                 layoutMedTal.push (PladeNy[y]);
