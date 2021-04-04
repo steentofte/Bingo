@@ -162,7 +162,7 @@ function VisPlade() {
         for (col = 0; col < 3; col++){
             if (layout[col][r]){
 
-                layoutMedTal.push (PladeNy[y]);
+                layoutMedTal.push ("  " +PladeNy[y]);
                 y++;
 
                 }
