@@ -28,6 +28,7 @@ function randomNumber(minimum, maximum){
 
 function NewPlate(){
     var TotalN = 0;
+    R1,R2,R3,R4,R5,R6,R7,R8,R9 = 1;
     while (TotalN !== MaxNumber){
         R1 = randomNumber( MinLinje, MaxLinje );
         R2 = randomNumber( MinLinje, MaxLinje );
