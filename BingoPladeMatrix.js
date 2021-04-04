@@ -28,6 +28,7 @@ function randomNumber(minimum, maximum){
 }
 
 function NewPlate(){
+    document.write();
     var TotalN = 0;
     R1,R2,R3,R4,R5,R6,R7,R8,R9 = 1;
     while (TotalN !== MaxNumber){
@@ -184,7 +185,7 @@ function VisPlade() {
             layoutMedTalOmformat.push (layoutMedTal[(i*3)+2]);
         }
 
-    document.write();
+    
     var taeller = 0;
     table = 0;
     for (u = 0; u < 3; u++)
