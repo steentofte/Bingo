@@ -26,6 +26,7 @@ var RTotal = [];
 var layout = [];
 var kolonne = [];
 var layoutMedTal = [];
+var layoutMedTalOmformat = [];
 var FakeTal = [[true,1],[false,2],[true,3]];
 
 function randomNumber(minimum, maximum){
@@ -206,14 +207,23 @@ function VisPlade() {
           
         }
     }
+    var pointer = 0;
+    for (i = 0; i < 9; i++)
+        {
+            layoutMedTalOmformat.push (layoutMedTal[i*3]);
+        }
+    console.log(layoutMedTalOmformat);
+
+
+
+
     console.log(layoutMedTal);    
     var taeller = 0;
     var table = document.getElementById("TrykPlade");
-
     for (u = 0; u < 9; u++)
     {
         var row = document.createElement('tr');
-        
+      
         for (v = 0; v < 3; v++)
         {
                 var cell = document.createElement('td');    
