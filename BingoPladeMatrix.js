@@ -164,6 +164,7 @@ VisPlade();
 
 function VisPlade() {
     layoutMedTal = [];
+    layoutMedTalOmformat = [];
     var y = 0;
     var col = 0;
     var r = 0;
@@ -212,4 +213,5 @@ function VisPlade() {
                 table.appendChild(row); 
         }    
     }
+
     }
