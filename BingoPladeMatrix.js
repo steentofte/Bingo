@@ -204,17 +204,21 @@ function VisPlade() {
             else {
             layoutMedTal.push (" ");
             }
-          
         }
     }
+    
     var pointer = 0;
     for (i = 0; i < 9; i++)
         {
             layoutMedTalOmformat.push (layoutMedTal[i*3]);
         }
-        for (i = 0; i < 9; i++)
+    for (i = 0; i < 9; i++)
         {
             layoutMedTalOmformat.push (layoutMedTal[(i*3)+1]);
+        }
+    for (i = 0; i < 9; i++)
+        {
+            layoutMedTalOmformat.push (layoutMedTal[(i*3)+2]);
         }
 
 
@@ -223,14 +227,14 @@ function VisPlade() {
     console.log(layoutMedTal);    
     var taeller = 0;
     var table = document.getElementById("TrykPlade");
-    for (u = 0; u < 9; u++)
+    for (u = 0; u < 3; u++)
     {
         var row = document.createElement('tr');
       
-        for (v = 0; v < 3; v++)
+        for (v = 0; v < 9; v++)
         {
                 var cell = document.createElement('td');    
-                cell.textContent = layoutMedTal[taeller];
+                cell.textContent = layoutMedTalOmformat[taeller];
                 row.appendChild(cell);
                 taeller++;
                 table.appendChild(row); 
