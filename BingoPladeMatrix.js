@@ -224,8 +224,9 @@ function VisPlade() {
                 //cell1.innerHTML = [y];
                 //row = table.insertRow(taeller);
                 taeller++;
+                table.appendChild(row); 
         }
-        table.appendChild(row);  
+         
     }
     }
 
