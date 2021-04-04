@@ -186,7 +186,7 @@ VisPlade();
 
 function VisPlade() {
     var table = document.getElementById("TrykPlade");
-    var row = table.insertRow(0);
+    //var row = table.insertRow(0);
     console.log ("visplade")
     var y = 0;
     var col = 0;
@@ -195,18 +195,32 @@ function VisPlade() {
         {
         for (col = 0; col < MaxLinje; col++){
             console.log(layout[col][r]);
+            var row = document.createElement('tr');
+            var cell = document.createElement('td');
             if (layout[col][r]){
-                var cell1 = row.insertCell(0);
+                //var cell1 = row.insertCell(0);
                 //console.log(y);
-                
-                cell1.innerHTML = "TRUE CELL" + PladeNy[y];
+                cell.textContent = PladeNy[y];
+                row.appendChild(cell);
+                //cell1.innerHTML = "TRUE CELL" + PladeNy[y];
                 y++;
-                row = table.insertRow(r);
+                //row = table.insertRow(r);
                 }
-                   
+                table.appendChild(row);   
             }
     }
     }
+
+        }
+        return table;
+    }
+
+
+
+
+
+
+
 
 
 function Fake() {
