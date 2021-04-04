@@ -25,6 +25,7 @@ var Placering = [];
 var RTotal = [];
 var layout = [];
 var kolonne = [];
+var layoutMedTal = [];
 var FakeTal = [[true,1],[false,2],[true,3]];
 
 function randomNumber(minimum, maximum){
@@ -185,7 +186,7 @@ VisPlade();
 }
 
 function VisPlade() {
-    var table = document.getElementById("TrykPlade");
+    //var table = document.getElementById("TrykPlade");
     //var row = table.insertRow(0);
     console.log ("visplade")
     var y = 0;
@@ -195,25 +196,28 @@ function VisPlade() {
         {
         for (col = 0; col < MaxLinje; col++){
             console.log(layout[col][r]);
-            var row = document.createElement('tr');
-            var cell = document.createElement('td');
+            //var row = document.createElement('tr');
+            //var cell = document.createElement('td');
             if (layout[col][r]){
                 //var cell1 = row.insertCell(0);
                 //console.log(y);
-                cell.textContent = PladeNy[y];
-                row.appendChild(cell);
+                //cell.textContent = PladeNy[y];
+                //row.appendChild(cell);
                 //cell1.innerHTML = "TRUE CELL" + PladeNy[y];
+                layoutMedTal.push (PladeNy[y]);
                 y++;
                 //row = table.insertRow(r);
                 }
             else {
-                cell.textContent = "BLANK";
-                row.appendChild(cell);
+            //    cell.textContent = "BLANK";
+            //    row.appendChild(cell);
+            layoutMedTal.push (" ");
             }
-                table.appendChild(row);   
-            }
+            //    table.appendChild(row);   
+        }
     }
-        return table;
+    console.log(layoutMedTal);    
+    //return table;
     }
 
 
