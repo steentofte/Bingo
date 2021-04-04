@@ -222,9 +222,6 @@ function VisPlade() {
         }
 
 
-    console.log(layoutMedTalOmformat);
-
-    console.log(layoutMedTal);    
     var taeller = 0;
     var table = document.getElementById("TrykPlade");
     for (u = 0; u < 3; u++)
@@ -238,7 +235,6 @@ function VisPlade() {
                 row.appendChild(cell);
                 taeller++;
                 table.appendChild(row); 
-        }
-         
+        }    
     }
     }
