@@ -212,10 +212,13 @@ function VisPlade() {
         {
             layoutMedTalOmformat.push (layoutMedTal[i*3]);
         }
+        for (i = 0; i < 9; i++)
+        {
+            layoutMedTalOmformat.push (layoutMedTal[(i*3)+1]);
+        }
+
+
     console.log(layoutMedTalOmformat);
-
-
-
 
     console.log(layoutMedTal);    
     var taeller = 0;
