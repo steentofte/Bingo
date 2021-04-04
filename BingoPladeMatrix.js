@@ -28,7 +28,6 @@ function randomNumber(minimum, maximum){
 }
 
 function NewPlate(){
-    //document.write();
     var TotalN = 0;
     R1,R2,R3,R4,R5,R6,R7,R8,R9 = 1;
     while (TotalN !== MaxNumber){
@@ -48,6 +47,7 @@ function NewPlate(){
 }
 
 function GenererPlade(){
+PladeNy = [];
 for (x = 0; x < 9; x++){
     for (y=0; y < RTotal[x]; y++){
         var NewNumber = randomNumber (x*10+1, x*10+10);
@@ -62,7 +62,6 @@ for (x = 0; x < 9; x++){
 function RandomRow (){
     layout = [];
     kolonne = [];
-    Placering = [];
     var count = 0;
     const randA = Math.random() < 0.5;
     const randB = Math.random() < 0.5;
