@@ -21,6 +21,7 @@ var layout = [];
 var kolonne = [];
 var layoutMedTal = [];
 var layoutMedTalOmformat = [];
+var table = document.getElementById("TrykPlade");
 
 function randomNumber(minimum, maximum){
     return Math.round( Math.random() * (maximum - minimum) + minimum);
@@ -183,9 +184,9 @@ function VisPlade() {
             layoutMedTalOmformat.push (layoutMedTal[(i*3)+2]);
         }
 
-
+    document.removeChild(document.table);
     var taeller = 0;
-    var table = document.getElementById("TrykPlade");
+    table = 0;
     for (u = 0; u < 3; u++)
     {
         var row = document.createElement('tr');
