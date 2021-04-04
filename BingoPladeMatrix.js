@@ -196,37 +196,40 @@ function VisPlade() {
         {
         for (col = 0; col < MaxLinje; col++){
             console.log(layout[col][r]);
-            //var row = document.createElement('tr');
-            //var cell = document.createElement('td');
             if (layout[col][r]){
-                //var cell1 = row.insertCell(0);
-                //console.log(y);
-                //cell.textContent = PladeNy[y];
-                //row.appendChild(cell);
-                //cell1.innerHTML = "TRUE CELL" + PladeNy[y];
+
                 layoutMedTal.push (PladeNy[y]);
                 y++;
-                //row = table.insertRow(r);
+
                 }
             else {
-            //    cell.textContent = "BLANK";
-            //    row.appendChild(cell);
             layoutMedTal.push (" ");
             }
-            //    table.appendChild(row);   
+          
         }
     }
     console.log(layoutMedTal);    
     //return table;
+    var taeller = 0;
+    for (u = 0; u < MaxLinje; u++)
+    {
+        var row = document.createElement('tr');
+        var cell = document.createElement('td');
+        for (v = 0; v < 9; v++)
+        {
+                var cell1 = row.insertCell(0);
+                cell.textContent = layoutMedTal[taeller];
+                row.appendChild(cell);
+                //cell1.innerHTML = [y];
+                row = table.insertRow(taeller);
+                taeller++;
+        }
+        table.appendChild(row);  
+    
     }
 
 
-
-
-
-
-
-
+    }
 
 function Fake() {
     document.getElementById('Fake').innerHTML = FakeTal;
