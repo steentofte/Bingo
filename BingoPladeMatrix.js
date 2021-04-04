@@ -187,7 +187,7 @@ function VisPlade() {
 
     var table = document.getElementById("TrykPlade");
     var taeller = 0;
-    table = 0;
+    //table = 0;
     for (u = 0; u < 3; u++)
     {
         var row = document.createElement('tr');
