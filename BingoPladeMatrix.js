@@ -206,6 +206,10 @@ function VisPlade() {
                 y++;
                 //row = table.insertRow(r);
                 }
+            else {
+                cell.textContent = "BLANK";
+                row.appendChild(cell);
+            }
                 table.appendChild(row);   
             }
     }
