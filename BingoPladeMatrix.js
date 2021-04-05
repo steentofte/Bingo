@@ -57,7 +57,8 @@ for (x = 0; x < 9; x++){
         }
         PladeNy.push (NewNumber);
     }
-console.log (PladeNy);
+    console.log (RTotal);
+    console.log (PladeNy);
 }
     MakeRows();    
     }        
