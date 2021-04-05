@@ -75,6 +75,7 @@ function MakeRows (){
     var countR1=0;
     var countR2=0;
     var countR3=0;
+    Placering = [];
 
     while (countR1 != Raekke || countR2 != Raekke || countR3 != Raekke  )
     {
