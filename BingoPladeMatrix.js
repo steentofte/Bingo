@@ -57,8 +57,6 @@ for (x = 0; x < 9; x++){
         }
         PladeNy.push (NewNumber);
     }
-    console.log (RTotal);
-    console.log (PladeNy);
 }
     MakeRows();    
     }        
@@ -175,7 +173,6 @@ function VisPlade() {
             }
         }
     }
-    console.log (layoutMedTal);
     var pointer = 0;
     for (i = 0; i < 9; i++)
         {
